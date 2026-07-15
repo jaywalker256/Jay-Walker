@@ -1,0 +1,2993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <meta name="theme-color" content="#1c1830" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#faf5ec" media="(prefers-color-scheme: light)">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Jay Walker Poetry">
+    <title>Jay Walker Poetry</title>
+    <meta name="description" content="Jay Walker Poetry - short reflective quotes for calm strength, motivation, and daily inspiration.">
+
+    <!-- PWA: manifest + home-screen icons (upload icon-192.png, icon-512.png, apple-touch-icon.png to your site root) -->
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+
+    <!-- Favicon: inline SVG star, no external file needed -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231c1830'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='%23e3a361' font-family='Georgia,serif'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E">
+
+    <!-- TODO: replace with your real live domain once deployed -->
+    <link rel="canonical" href="https://example.com">
+
+    <!-- Open Graph / social share preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jay Walker Poetry">
+    <meta property="og:description" content="Short reflective quotes for calm strength, motivation, and daily inspiration.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://example.com">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jay Walker Poetry">
+    <meta name="twitter:description" content="Short reflective quotes for calm strength, motivation, and daily inspiration.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Structured data for richer search results -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Jay Walker Poetry",
+        "description": "Short reflective quotes for calm strength, motivation, and daily inspiration.",
+        "author": {
+            "@type": "Person",
+            "name": "Jay Walker"
+        }
+    }
+    </script>
+
+    <style>
+        /* CSS styling for an elegant, distraction-free aesthetic */
+        :root {
+            --bg-color: #1c1830; /* Deep dusk indigo-plum */
+            --text-color: #f7f1e8; /* warm ivory */
+            --text-strong: #ffffff; /* headings / high-emphasis text */
+            --text-muted: #d4c9ba; /* secondary body text */
+            --text-faint: #8a8078; /* tertiary / meta text */
+            --pill-bg: rgba(255, 255, 255, 0.14);
+            --pill-border: rgba(255, 255, 255, 0.27);
+            --accent-color: #dd9634; /* Warm amber/gold for headings and navigation links */
+            --accent-color-light: #f0b45c; /* Lighter amber for hovers and gradients */
+            --accent-rose: #de6288; /* Dusty rose for favorites and love */
+            --accent-teal: #33a68d; /* Soft teal for hope and quiet accents */
+            --accent-violet: #6a70d1; /* Soft violet for reflection accents */
+            --accent-sage: #5a8760; /* Sage green for quiet/calm accents */
+            --accent-coral: #db5e2c; /* Warm coral for motivation accents */
+            --accent-gold-deep: #bd7a26; /* Deeper gold, readable on light backgrounds */
+            --surface-color: #ffffff;
+            --border-color: rgba(255, 255, 255, 0.17);
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        body {
+            font-family: "Georgia", "Times New Roman", serif;
+            line-height: 1.8;
+            background-color: var(--bg-color);
+            background-image: radial-gradient(circle at top left, rgba(227, 163, 97, 0.27), transparent 22%), radial-gradient(circle at bottom right, rgba(95, 184, 163, 0.2), transparent 20%), radial-gradient(circle at 60% 40%, rgba(138, 143, 217, 0.14), transparent 30%), radial-gradient(circle at 12% 75%, rgba(232, 135, 159, 0.14), transparent 24%), radial-gradient(circle at 88% 12%, rgba(226, 121, 79, 0.12), transparent 22%), radial-gradient(1.5px 1.5px at 10% 20%, rgba(247, 241, 232, 0.5), transparent), radial-gradient(1.5px 1.5px at 30% 65%, rgba(247, 241, 232, 0.42), transparent), radial-gradient(1.5px 1.5px at 55% 30%, rgba(247, 241, 232, 0.5), transparent), radial-gradient(1.5px 1.5px at 75% 80%, rgba(247, 241, 232, 0.37), transparent), radial-gradient(1.5px 1.5px at 90% 45%, rgba(247, 241, 232, 0.48), transparent), radial-gradient(1.5px 1.5px at 20% 90%, rgba(247, 241, 232, 0.34), transparent), radial-gradient(1.5px 1.5px at 65% 10%, rgba(247, 241, 232, 0.42), transparent);
+            background-size: cover, cover, cover, cover, cover, 220px 220px, 220px 220px, 220px 220px, 220px 220px, 220px 220px, 220px 220px, 220px 220px;
+            background-size: cover;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            padding-left: env(safe-area-inset-left);
+            padding-right: env(safe-area-inset-right);
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        button, a, input, textarea {
+            touch-action: manipulation;
+        }
+
+        header {
+            text-align: center;
+            padding: 4rem 1rem 2rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 0.5rem;
+            letter-spacing: 2px;
+            color: var(--text-strong); /* Force main title to Thick white */
+        }
+
+        .header-flourish {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            margin: 1.1rem auto 0;
+            max-width: 260px;
+            color: var(--accent-color);
+        }
+
+        .header-flourish::before,
+        .header-flourish::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(227, 163, 97, 0.7), rgba(232, 135, 159, 0.5));
+        }
+
+        .header-flourish::after {
+            background: linear-gradient(90deg, rgba(138, 143, 217, 0.5), rgba(227, 163, 97, 0.7), transparent);
+        }
+
+        .header-flourish span {
+            font-size: 1rem;
+            background: linear-gradient(90deg, var(--accent-color), var(--accent-rose) 45%, var(--accent-violet) 75%, var(--accent-teal));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 0.3px;
+        }
+
+        nav {
+            margin-top: 1.5rem;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: var(--accent-color);
+            text-decoration: none;
+            margin: 0;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: var(--accent-color-light);
+        }
+
+        .search-container {
+            margin-top: 1.5rem;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: var(--pill-bg);
+            border: 1px solid rgba(227, 163, 97, 0.5);
+            border-radius: 999px;
+            color: var(--text-color);
+            font-size: 16px;
+            transition: border-color 0.2s ease;
+        }
+
+        .search-input::placeholder {
+            color: var(--text-faint);
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-color);
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(227, 163, 97, 0.31);
+        }
+
+        .search-results {
+            margin-top: 2rem;
+            display: none;
+        }
+
+        .search-results.active {
+            display: block;
+        }
+
+        .search-result-item {
+            background: rgba(43, 33, 64, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.17);
+            border-radius: 0.75rem;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .search-result-item:hover {
+            background: rgba(43, 33, 64, 0.8);
+            transform: translateX(4px);
+        }
+
+        .search-result-item h4 {
+            margin: 0 0 0.5rem 0;
+            color: var(--accent-color);
+        }
+
+        .search-result-item p {
+            margin: 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            margin-top: 2rem;
+        }
+
+        .testimonial-card {
+            background: linear-gradient(135deg, rgba(227, 163, 97, 0.14), rgba(227, 163, 97, 0.03));
+            border: 1px solid rgba(227, 163, 97, 0.34);
+            border-radius: 1rem;
+            padding: 1.75rem;
+            position: relative;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            font-size: 3rem;
+            color: rgba(227, 163, 97, 0.34);
+            position: absolute;
+            top: 0.5rem;
+            left: 1rem;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--accent-color);
+            font-size: 0.9rem;
+        }
+
+        .newsletter-form {
+            background: linear-gradient(135deg, rgba(227, 163, 97, 0.17), rgba(227, 163, 97, 0.09));
+            border: 1px solid rgba(227, 163, 97, 0.34);
+            border-radius: 1rem;
+            padding: 2rem;
+            max-width: 600px;
+            margin: 2rem auto;
+        }
+
+        .newsletter-form h3 {
+            margin: 0 0 0.75rem 0;
+            color: var(--text-strong);
+            font-size: 1.3rem;
+        }
+
+        .newsletter-form p {
+            margin: 0 0 1.5rem 0;
+            color: var(--text-muted);
+        }
+
+        .newsletter-input {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .newsletter-input input {
+            flex: 1;
+            padding: 0.9rem 1rem;
+            background: var(--pill-bg);
+            border: 1px solid rgba(227, 163, 97, 0.34);
+            border-radius: 0.75rem;
+            color: var(--text-color);
+            font-size: 16px;
+        }
+
+        .newsletter-input button {
+            padding: 0.9rem 1.5rem;
+            background: linear-gradient(135deg, #dd9634 0%, #f0b45c 100%);
+            color: #0f172a;
+            border: none;
+            border-radius: 0.75rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .newsletter-input button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 10px 20px rgba(227, 163, 97, 0.34);
+        }
+
+        .newsletter-message {
+            font-size: 0.9rem;
+            min-height: 1.2rem;
+            color: var(--accent-color-light);
+        }
+
+        .bio-section {
+            background: rgba(43, 33, 64, 0.5);
+            border: 1px solid rgba(227, 163, 97, 0.26);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-top: 1.5rem;
+            line-height: 1.75;
+        }
+
+        .bio-section h3 {
+            color: var(--accent-color);
+            margin-top: 0;
+        }
+
+        .bio-section p {
+            color: var(--text-muted);
+            margin: 0 0 1rem 0;
+        }
+
+        .blog-grid {
+            display: grid;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .blog-post {
+            background: linear-gradient(180deg, rgba(43, 33, 64, 0.6), rgba(20, 16, 31, 0.6));
+            border: 1px solid rgba(255, 255, 255, 0.17);
+            border-radius: 1rem;
+            padding: 2rem;
+            position: relative;
+        }
+
+        .blog-content {
+            margin: 0.5rem 0 1rem 0;
+            color: #ffffff;
+            font-size: 1.5rem;
+        }
+
+        .blog-content {
+            color: var(--text-muted);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .read-more {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+            background: none;
+            border: none;
+            padding: 0;
+            font-family: inherit;
+            cursor: pointer;
+        }
+
+        .blog-full-content p {
+            margin: 0 0 0.9rem 0;
+            color: var(--text-muted);
+            line-height: 1.75;
+        }
+
+        .read-more:hover {
+            color: var(--accent-color-light);
+        }
+
+        .daily-quote-box {
+            background: linear-gradient(135deg, rgba(227, 163, 97, 0.26), rgba(227, 163, 97, 0.14));
+            border: 2px solid rgba(227, 163, 97, 0.5);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .daily-quote-box h3 {
+            color: var(--accent-color);
+            margin: 0 0 1rem 0;
+            font-size: 1.1rem;
+        }
+
+        .daily-quote-content {
+            color: var(--text-color);
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .daily-quote-button {
+            padding: 0.75rem 1.5rem;
+            background: rgba(227, 163, 97, 0.34);
+            border: 1px solid rgba(227, 163, 97, 0.5);
+            border-radius: 999px;
+            color: var(--accent-color-light);
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .daily-quote-button:hover {
+            background: rgba(227, 163, 97, 0.5);
+            transform: translateY(-1px);
+        }
+
+        .favorite-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            padding: 0.5rem;
+            transition: transform 0.2s ease;
+        }
+
+        .favorite-button:hover {
+            transform: scale(1.2);
+        }
+
+        .favorite-button.favorited {
+            color: var(--accent-rose);
+        }
+
+        .copy-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            padding: 0.5rem;
+            transition: transform 0.2s ease;
+            color: var(--accent-color-light);
+        }
+
+        .copy-button:hover {
+            transform: scale(1.2);
+        }
+
+        .copy-feedback {
+            position: fixed;
+            bottom: calc(2rem + env(safe-area-inset-bottom));
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(227, 163, 97, 0.9);
+            color: #ffffff;
+            padding: 1rem 1.5rem;
+            border-radius: 999px;
+            font-weight: 600;
+            z-index: 10000;
+            max-width: calc(100vw - 2rem);
+            text-align: center;
+            animation: slideUp 0.3s ease, slideDown 0.3s ease 2.7s;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateX(-50%) translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
+            to {
+                opacity: 0;
+                transform: translateX(-50%) translateY(20px);
+            }
+        }
+
+        .favorites-button {
+            background: none;
+            border: none;
+            background: rgba(232, 135, 159, 0.14);
+            border: 1px solid rgba(232, 135, 159, 0.34);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            display: none;
+        }
+
+        .favorites-section.active {
+            display: block;
+        }
+
+        .favorites-section h3 {
+            color: var(--accent-rose);
+            margin-top: 0;
+        }
+
+        .favorites-list {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .favorites-item {
+            background: rgba(255, 255, 255, 0.09);
+            border-left: 3px solid #e8879f;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .favorites-item:hover {
+            background: rgba(255, 255, 255, 0.14);
+        }
+
+        .favorites-item h4 {
+            margin: 0 0 0.5rem 0;
+            color: var(--text-strong);
+        }
+
+        .favorites-item p {
+            margin: 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin: 0;
+            letter-spacing: 0.4px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem;
+        }
+
+        .hero {
+            background: linear-gradient(180deg, rgba(16, 12, 24, 0.92), rgba(19, 14, 27, 0.92)), url('https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 1.25rem;
+            padding: 3rem 2rem;
+            margin-bottom: 3.5rem;
+            text-align: center;
+            box-shadow: 0 28px 60px rgba(0, 0, 0, 0.22);
+            position: relative;
+            overflow: hidden;
+            min-height: 420px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h2 {
+            font-size: 2.6rem;
+            margin: 0.5rem auto 1rem;
+            color: var(--text-strong);
+            letter-spacing: 0.02em;
+            line-height: 1.1;
+            max-width: 760px;
+        }
+
+        .hero p {
+            max-width: 640px;
+            margin: 0 auto 1.5rem;
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+
+        .hero-sparkle {
+            position: absolute;
+            color: var(--accent-color);
+            opacity: 0.5;
+            pointer-events: none;
+            animation: sparkleFloat 5s ease-in-out infinite;
+        }
+
+        @keyframes sparkleFloat {
+            0%, 100% { transform: translateY(0); opacity: 0.25; }
+            50% { transform: translateY(-10px); opacity: 0.8; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .hero-sparkle {
+                animation: none;
+                opacity: 0.4;
+            }
+        }
+
+        /* ============ AMBIENT PAGE BACKGROUND DECORATION ============ */
+        .skip-link {
+            position: absolute;
+            top: -3rem;
+            left: 1rem;
+            background: var(--accent-color);
+            color: #1c1830;
+            padding: 0.75rem 1.25rem;
+            border-radius: 0.5rem;
+            font-weight: 700;
+            text-decoration: none;
+            z-index: 10001;
+            transition: top 0.2s ease;
+        }
+
+        .skip-link:focus {
+            top: calc(1rem + env(safe-area-inset-top));
+        }
+
+        .ambient-decor {
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .ambient-blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(70px);
+            opacity: 0.48;
+        }
+
+        .ambient-blob--1 { top: -8%; left: -6%; width: 38vw; height: 38vw; background: var(--accent-color); }
+        .ambient-blob--2 { top: 55%; right: -10%; width: 42vw; height: 42vw; background: var(--accent-teal); }
+        .ambient-blob--3 { top: 30%; left: 40%; width: 30vw; height: 30vw; background: var(--accent-violet); }
+        .ambient-blob--4 { bottom: -12%; left: 10%; width: 34vw; height: 34vw; background: var(--accent-rose); }
+        .ambient-blob--5 { top: 8%; right: 20%; width: 20vw; height: 20vw; background: var(--accent-sage); }
+
+        body.light-theme .ambient-blob {
+            opacity: 0.22;
+        }
+
+        .ambient-sparkle {
+            position: absolute;
+            color: var(--accent-color);
+            opacity: 0.5;
+            animation: sparkleFloat 6s ease-in-out infinite;
+        }
+
+        .ambient-dust {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: var(--accent-color);
+            opacity: 0.35;
+            animation: sparkleFloat 7s ease-in-out infinite;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .ambient-sparkle,
+            .ambient-dust {
+                animation: none;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .ambient-blob {
+                filter: blur(46px);
+            }
+        }
+
+        .button {
+            display: inline-block;
+            background: linear-gradient(135deg, #dd9634 0%, #f0b45c 100%);
+            color: #0f172a;
+            padding: 1rem 1.8rem;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            box-shadow: 0 15px 28px rgba(227, 163, 97, 0.37);
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 18px 32px rgba(227, 163, 97, 0.48);
+        }
+
+        .card-grid {
+            display: grid;
+            gap: 1.75rem;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        }
+
+        .card {
+            background: linear-gradient(180deg, rgba(43, 33, 64, 0.98), rgba(20, 16, 31, 0.96));
+            border: 1px solid rgba(255, 255, 255, 0.17);
+            border-radius: 1.25rem;
+            padding: 1.75rem;
+            min-height: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+            box-shadow: 0 18px 36px rgba(0, 0, 0, 0.18);
+            backdrop-filter: blur(8px);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 24px 46px rgba(0, 0, 0, 0.22);
+        }
+
+        .card h3 {
+            margin: 0 0 0.75rem;
+            font-size: 1.35rem;
+            font-family: Calibri, Arial, sans-serif;
+            color: var(--text-strong);
+        }
+
+        .card p {
+            margin: 0;
+            color: var(--text-muted);
+            line-height: 1.75;
+        }
+
+        .download-button {
+            margin-top: 1.5rem;
+            width: fit-content;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--pill-border);
+            border-radius: 999px;
+            background: var(--pill-bg);
+            color: var(--text-strong);
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .download-button:hover {
+            background: rgba(255, 255, 255, 0.24);
+            transform: translateY(-1px);
+        }
+
+        .section-intro {
+            max-width: 720px;
+            margin: 0 0 2rem;
+            color: var(--text-muted);
+            font-size: 1rem;
+            line-height: 1.75;
+        }
+
+        .badge-grid {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            margin: 1.5rem 0 0;
+        }
+
+        .category-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.85rem 1rem;
+            border-radius: 999px;
+            background: rgba(227, 163, 97, 0.24);
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            border: 1px solid rgba(227, 163, 97, 0.34);
+            cursor: pointer;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .category-button:hover,
+        .category-button:focus {
+            background-color: rgba(227, 163, 97, 0.37);
+            transform: translateY(-1px);
+            outline: none;
+        }
+
+        .category-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #ecfdf5;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 1rem;
+            padding: 0.6rem 1rem;
+            background: rgba(22, 163, 74, 0.31);
+            border-radius: 999px;
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid rgba(22, 163, 74, 0.48);
+            box-shadow: 0 8px 24px rgba(22, 163, 74, 0.2);
+        }
+
+        .share-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1.5rem;
+        }
+
+        .share-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.8rem 1rem;
+            border-radius: 999px;
+            background: var(--pill-bg);
+            border: 1px solid var(--pill-border);
+            color: var(--text-strong);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-family: inherit;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .share-link:hover {
+            background-color: rgba(227, 163, 97, 0.34);
+            transform: translateY(-1px);
+        }
+
+        .scroll-buttons {
+            position: fixed;
+            right: calc(1rem + env(safe-area-inset-right));
+            bottom: calc(1rem + env(safe-area-inset-bottom));
+            display: grid;
+            gap: 0.75rem;
+            z-index: 1000;
+        }
+
+        .scroll-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 999px;
+            background: rgba(227, 163, 97, 0.31);
+            color: var(--text-strong);
+            text-decoration: none;
+            font-size: 1.25rem;
+            border: 1px solid rgba(227, 163, 97, 0.5);
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .scroll-button:hover {
+            transform: translateY(-2px);
+            background-color: rgba(227, 163, 97, 0.48);
+        }
+
+        section {
+            margin-bottom: 5rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            border-bottom: 2px solid rgba(227, 163, 97, 0.5);
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.8rem;
+            color: var(--text-strong);
+        }
+
+        h2::before {
+            content: '✦';
+            display: inline-block;
+            color: var(--accent-color);
+            font-size: 0.65em;
+            margin-right: 0.5rem;
+            vertical-align: middle;
+            transform: translateY(-0.15em);
+        }
+
+        .hero h2::before {
+            display: block;
+            margin: 0 0 0.6rem;
+        }
+
+        /* Essential for preserving quote line breaks and spacing */
+        .quote {
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+            white-space: pre-wrap; /* Keeps your exact formatting */
+            font-style: italic;
+            color: var(--text-color);
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            background-color: rgba(255, 255, 255, 0.2);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-left: 4px solid rgba(227, 163, 97, 0.9);
+            padding: 1.5rem 1.25rem 1.5rem 1.25rem;
+            border-radius: 0.75rem;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+        }
+
+        .quote::before {
+            content: '"';
+            position: absolute;
+            top: -0.5rem;
+            right: 0.75rem;
+            font-size: 6rem;
+            font-family: Georgia, serif;
+            color: rgba(227, 163, 97, 0.24);
+            pointer-events: none;
+            line-height: 1;
+        }
+
+        .quote::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+            pointer-events: none;
+        }
+
+        .quote > .quote-title,
+        .quote > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .quote-title {
+            font-family: "Arial Black", Arial, sans-serif;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 0.75rem;
+            color: var(--accent-color);
+        }
+
+        .quote--still {
+            background-image: linear-gradient(180deg, rgba(28, 24, 48, 0.6), rgba(28, 24, 48, 0.7)), url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80');
+        }
+
+        .quote--silent {
+            background-image: linear-gradient(180deg, rgba(19, 15, 30, 0.55), rgba(19, 15, 30, 0.8)), url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80');
+        }
+
+        .quote--life {
+            background-image: linear-gradient(180deg, rgba(22, 17, 32, 0.55), rgba(22, 17, 32, 0.8)), url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80');
+        }
+
+        .email-link {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        .feedback-form {
+            display: grid;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            max-width: 760px;
+        }
+
+        .feedback-form label {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .feedback-form input,
+        .feedback-form textarea {
+            width: 100%;
+            background: var(--pill-bg);
+            border: 1px solid var(--pill-border);
+            border-radius: 0.85rem;
+            color: var(--text-color);
+            padding: 0.95rem 1rem;
+            font-size: 1rem;
+            resize: vertical;
+            min-height: 3rem;
+        }
+
+        .feedback-form textarea {
+            min-height: 140px;
+        }
+
+        .feedback-form input:focus,
+        .feedback-form textarea:focus {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 3px rgba(227, 163, 97, 0.31);
+            outline: none;
+        }
+
+        .feedback-form button {
+            width: fit-content;
+            align-self: flex-start;
+            padding: 0.95rem 1.5rem;
+            border: none;
+            border-radius: 999px;
+            background: linear-gradient(135deg, #dd9634 0%, #f0b45c 100%);
+            color: #0f172a;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .feedback-form button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 14px 28px rgba(227, 163, 97, 0.41);
+        }
+
+        .feedback-message {
+            color: var(--accent-color-light);
+            margin: 0;
+            font-size: 0.95rem;
+            min-height: 1.2rem;
+        }
+
+        .auth-screen {
+            position: fixed;
+            inset: 0;
+            background: rgba(8, 12, 20, 0.96);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: calc(1.5rem + env(safe-area-inset-top)) calc(1.5rem + env(safe-area-inset-right)) calc(1.5rem + env(safe-area-inset-bottom)) calc(1.5rem + env(safe-area-inset-left));
+            z-index: 9999;
+            overflow-y: auto;
+        }
+
+        .auth-card {
+            width: 100%;
+            max-width: 420px;
+            background: rgba(15, 23, 42, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+        }
+
+        .auth-card h2 {
+            margin: 0 0 0.75rem;
+            font-size: 1.75rem;
+            color: #ffffff;
+        }
+
+        .auth-card p {
+            margin: 0 0 1.5rem;
+            color: #d9cfc0;
+            line-height: 1.6;
+        }
+
+        .auth-card label {
+            display: block;
+            margin: 0.9rem 0 0.25rem;
+            color: #d1d5db;
+            font-size: 0.92rem;
+        }
+
+        .auth-card input {
+            width: 100%;
+            padding: 0.95rem 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 0.75rem;
+            background: rgba(255, 255, 255, 0.07);
+            color: #f7f1e8;
+            font-size: 1rem;
+            outline: none;
+        }
+
+        .auth-card input:focus {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 3px rgba(227, 163, 97, 0.31);
+        }
+
+        .auth-card button {
+            width: 100%;
+            margin-top: 1.25rem;
+            padding: 0.95rem 1rem;
+            border: none;
+            border-radius: 0.75rem;
+            background: var(--accent-color);
+            color: #0f172a;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .auth-card button:hover {
+            background-color: #7ec7ff;
+            transform: translateY(-1px);
+        }
+
+        .auth-error {
+            margin-top: 0.9rem;
+            color: #fda4af;
+            min-height: 1.2rem;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem 1rem 2rem 1rem;
+            font-size: 0.85rem;
+            color: var(--text-faint);
+            border-top: 1px solid var(--border-color);
+            padding-bottom: calc(2rem + env(safe-area-inset-bottom));
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(227, 163, 97, 0.26);
+            color: var(--accent-color-light);
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(227, 163, 97, 0.34);
+        }
+
+        .social-link:hover {
+            background: rgba(227, 163, 97, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .social-item {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .social-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            letter-spacing: 0.3px;
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: calc(1rem + env(safe-area-inset-top));
+            right: calc(1rem + env(safe-area-inset-right));
+            background: rgba(227, 163, 97, 0.34);
+            border: 1px solid rgba(227, 163, 97, 0.5);
+            color: var(--accent-color-light);
+            padding: 0.5rem 1rem;
+            border-radius: 999px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            z-index: 100;
+        }
+
+        .theme-toggle:hover {
+            background: rgba(227, 163, 97, 0.5);
+            transform: translateY(-1px);
+        }
+
+        /* ============ LIGHT THEME — comprehensive, high-contrast override ============ */
+        body.light-theme {
+            --bg-color: #faf5ec;
+            --text-color: #2b2015;       /* body copy — deep warm brown, AA on cream */
+            --text-strong: #19110a;      /* headings — near-black for max contrast */
+            --text-muted: #5c4f3f;       /* secondary text — darkened from ivory-on-dark equivalent */
+            --text-faint: #7a6d5c;       /* tertiary/meta text — still readable, not washed out */
+            --accent-color: #a5560f;     /* deepened gold so links/icons pass contrast on cream */
+            --accent-color-light: #8a480d;
+            --accent-rose: #9c2e50;
+            --accent-teal: #216656;
+            --accent-violet: #464b9b;
+            --accent-sage: #3c5a3f;
+            --accent-coral: #a44214;
+            --surface-color: #ffffff;
+            --border-color: rgba(43, 32, 21, 0.24);
+            --pill-bg: rgba(184, 108, 44, 0.12);
+            --pill-border: rgba(184, 108, 44, 0.37);
+            background-color: var(--bg-color);
+            background-image: radial-gradient(circle at top left, rgba(184, 108, 44, 0.14), transparent 22%), radial-gradient(circle at bottom right, rgba(47, 125, 104, 0.1), transparent 20%), radial-gradient(circle at 60% 40%, rgba(90, 95, 176, 0.09), transparent 30%), radial-gradient(circle at 12% 75%, rgba(177, 63, 99, 0.09), transparent 24%), radial-gradient(circle at 88% 12%, rgba(184, 84, 33, 0.09), transparent 22%), radial-gradient(1.5px 1.5px at 10% 20%, rgba(43, 32, 21, 0.24), transparent), radial-gradient(1.5px 1.5px at 30% 65%, rgba(43, 32, 21, 0.17), transparent), radial-gradient(1.5px 1.5px at 55% 30%, rgba(43, 32, 21, 0.2), transparent), radial-gradient(1.5px 1.5px at 75% 80%, rgba(43, 32, 21, 0.15), transparent), radial-gradient(1.5px 1.5px at 90% 45%, rgba(43, 32, 21, 0.19), transparent), radial-gradient(1.5px 1.5px at 20% 90%, rgba(43, 32, 21, 0.14), transparent), radial-gradient(1.5px 1.5px at 65% 10%, rgba(43, 32, 21, 0.17), transparent);
+            background-size: cover, cover, cover, cover, cover, 220px 220px, 220px 220px, 220px 220px, 220px 220px, 220px 220px, 220px 220px, 220px 220px;
+            color: var(--text-color);
+        }
+
+        body.light-theme header,
+        body.light-theme main,
+        body.light-theme section {
+            background-color: transparent;
+        }
+
+        body.light-theme .quote,
+        body.light-theme .card,
+        body.light-theme .testimonial-card,
+        body.light-theme .blog-post,
+        body.light-theme .hero,
+        body.light-theme .daily-quote-box,
+        body.light-theme .newsletter-form,
+        body.light-theme .category-filter-section,
+        body.light-theme .comments-section,
+        body.light-theme .related-quotes-section,
+        body.light-theme .author-links-section,
+        body.light-theme .bio-section,
+        body.light-theme .popular-quote-item,
+        body.light-theme .search-result-item {
+            background: rgba(184, 108, 44, 0.09);
+            border-color: rgba(184, 108, 44, 0.27);
+            color: var(--text-color);
+            box-shadow: 0 10px 24px rgba(43, 32, 21, 0.1);
+        }
+
+        body.light-theme .hero {
+            background: linear-gradient(180deg, rgba(250, 245, 236, 0.94), rgba(250, 245, 236, 0.9)), url('https://images.unsplash.com/photo-1496317899792-9d7dbcd928a1?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        body.light-theme .quote-title {
+            color: #9c4c14;
+        }
+
+        body.light-theme h1,
+        body.light-theme h2,
+        body.light-theme h3,
+        body.light-theme h4 {
+            color: var(--text-strong);
+        }
+
+        body.light-theme .search-input,
+        body.light-theme .newsletter-input input,
+        body.light-theme .comments-form textarea,
+        body.light-theme .feedback-form input,
+        body.light-theme .feedback-form textarea {
+            background: rgba(184, 108, 44, 0.1);
+            border-color: rgba(184, 108, 44, 0.42);
+            color: var(--text-color);
+        }
+
+        body.light-theme .search-input::placeholder {
+            color: var(--text-faint);
+        }
+
+        body.light-theme .download-button,
+        body.light-theme .share-link {
+            background: rgba(43, 32, 21, 0.09);
+            border-color: rgba(43, 32, 21, 0.27);
+            color: var(--text-strong);
+        }
+
+        body.light-theme .scroll-button {
+            color: #ffffff;
+        }
+
+        body.light-theme .comment,
+        body.light-theme .related-quote-item,
+        body.light-theme .favorites-item {
+            background: rgba(43, 32, 21, 0.07);
+        }
+
+        body.light-theme .favorites-item h4 {
+            color: var(--text-strong);
+        }
+
+        body.light-theme .newsletter-input button,
+        body.light-theme .comments-form button {
+            color: #2b1608;
+        }
+
+        /* Per-category tag colors, darkened for legibility on a light surface */
+        body.light-theme .quote-tag[data-cat="Faith"], body.light-theme .category-filter-btn[data-category="Faith"] {
+            background: rgba(184, 108, 44, 0.2); border-color: rgba(184, 108, 44, 0.5); color: #9c5417;
+        }
+        body.light-theme .quote-tag[data-cat="Motivation"], body.light-theme .category-filter-btn[data-category="Motivation"] {
+            background: rgba(184, 84, 33, 0.2); border-color: rgba(184, 84, 33, 0.5); color: #a3441a;
+        }
+        body.light-theme .quote-tag[data-cat="Hope"], body.light-theme .category-filter-btn[data-category="Hope"] {
+            background: rgba(47, 125, 104, 0.2); border-color: rgba(47, 125, 104, 0.5); color: #2f7d68;
+        }
+        body.light-theme .quote-tag[data-cat="Love"], body.light-theme .category-filter-btn[data-category="Love"] {
+            background: rgba(177, 63, 99, 0.2); border-color: rgba(177, 63, 99, 0.5); color: #b13f63;
+        }
+        body.light-theme .quote-tag[data-cat="Reflection"], body.light-theme .category-filter-btn[data-category="Reflection"] {
+            background: rgba(90, 95, 176, 0.2); border-color: rgba(90, 95, 176, 0.5); color: #5a5fb0;
+        }
+        body.light-theme .quote-tag[data-cat="Quiet"], body.light-theme .category-filter-btn[data-category="Quiet"] {
+            background: rgba(79, 112, 82, 0.2); border-color: rgba(79, 112, 82, 0.5); color: #4f7052;
+        }
+        body.light-theme .category-filter-btn.active[data-category="Faith"] { background: rgba(184, 108, 44, 0.42); color: #ffffff; }
+        body.light-theme .category-filter-btn.active[data-category="Motivation"] { background: rgba(184, 84, 33, 0.42); color: #ffffff; }
+        body.light-theme .category-filter-btn.active[data-category="Hope"] { background: rgba(47, 125, 104, 0.42); color: #ffffff; }
+        body.light-theme .category-filter-btn.active[data-category="Love"] { background: rgba(177, 63, 99, 0.42); color: #ffffff; }
+        body.light-theme .category-filter-btn.active[data-category="Reflection"] { background: rgba(90, 95, 176, 0.42); color: #ffffff; }
+        body.light-theme .category-filter-btn.active[data-category="Quiet"] { background: rgba(79, 112, 82, 0.42); color: #ffffff; }
+
+        body.light-theme .theme-toggle {
+            background: rgba(184, 108, 44, 0.2);
+            border-color: rgba(184, 108, 44, 0.5);
+        }
+
+        body.light-theme .header-flourish::before,
+        body.light-theme .header-flourish::after {
+            background: linear-gradient(90deg, transparent, rgba(184, 108, 44, 0.5), rgba(177, 63, 99, 0.5));
+        }
+
+        body.light-theme footer {
+            border-top-color: rgba(43, 32, 21, 0.24);
+            color: var(--text-faint);
+        }
+
+        .category-filter-section {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: rgba(227, 163, 97, 0.14);
+            border: 1px solid rgba(227, 163, 97, 0.26);
+            border-radius: 1rem;
+        }
+
+        .category-filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .category-filter-btn {
+            padding: 0.6rem 1rem;
+            background: rgba(227, 163, 97, 0.26);
+            border: 1px solid rgba(227, 163, 97, 0.5);
+            border-radius: 999px;
+            color: var(--accent-color-light);
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .category-filter-btn:hover,
+        .category-filter-btn.active {
+            background: rgba(227, 163, 97, 0.5);
+            border-color: var(--accent-color);
+        }
+
+        .quote-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            font-size: 0.85rem;
+        }
+
+        .quote-tag {
+            background: rgba(227, 163, 97, 0.34);
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            color: var(--accent-color-light);
+            border: 1px solid rgba(227, 163, 97, 0.5);
+        }
+
+        /* Per-category colors — each theme carries its own hue */
+        .quote-tag[data-cat="Faith"], .category-filter-btn[data-category="Faith"] {
+            background: rgba(227, 163, 97, 0.34); border-color: rgba(227, 163, 97, 0.5); color: #f4c78a;
+        }
+        .quote-tag[data-cat="Motivation"], .category-filter-btn[data-category="Motivation"] {
+            background: rgba(226, 121, 79, 0.34); border-color: rgba(226, 121, 79, 0.5); color: #f0a483;
+        }
+        .quote-tag[data-cat="Hope"], .category-filter-btn[data-category="Hope"] {
+            background: rgba(95, 184, 163, 0.34); border-color: rgba(95, 184, 163, 0.5); color: #8fd4c1;
+        }
+        .quote-tag[data-cat="Love"], .category-filter-btn[data-category="Love"] {
+            background: rgba(232, 135, 159, 0.34); border-color: rgba(232, 135, 159, 0.5); color: #f0aabc;
+        }
+        .quote-tag[data-cat="Reflection"], .category-filter-btn[data-category="Reflection"] {
+            background: rgba(138, 143, 217, 0.34); border-color: rgba(138, 143, 217, 0.5); color: #b3b7ea;
+        }
+        .quote-tag[data-cat="Quiet"], .category-filter-btn[data-category="Quiet"] {
+            background: rgba(122, 158, 126, 0.34); border-color: rgba(122, 158, 126, 0.5); color: #a3c7a6;
+        }
+        .category-filter-btn.active[data-category="Faith"] { background: rgba(227, 163, 97, 0.5); }
+        .category-filter-btn.active[data-category="Motivation"] { background: rgba(226, 121, 79, 0.5); }
+        .category-filter-btn.active[data-category="Hope"] { background: rgba(95, 184, 163, 0.5); }
+        .category-filter-btn.active[data-category="Love"] { background: rgba(232, 135, 159, 0.5); }
+        .category-filter-btn.active[data-category="Reflection"] { background: rgba(138, 143, 217, 0.5); }
+        .category-filter-btn.active[data-category="Quiet"] { background: rgba(122, 158, 126, 0.5); }
+
+        .comments-section {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: rgba(227, 163, 97, 0.14);
+            border: 1px solid rgba(227, 163, 97, 0.26);
+            border-radius: 1rem;
+            display: none;
+        }
+
+        .comments-section.active {
+            display: block;
+        }
+
+        .comments-form {
+            display: grid;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .comments-form textarea {
+            width: 100%;
+            padding: 0.75rem;
+            background: var(--pill-bg);
+            border: 1px solid var(--pill-border);
+            border-radius: 0.5rem;
+            color: var(--text-color);
+            font-size: 16px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        .comments-form button {
+            width: fit-content;
+            padding: 0.6rem 1.2rem;
+            background: linear-gradient(135deg, #dd9634 0%, #f0b45c 100%);
+            color: #0f172a;
+            border: none;
+            border-radius: 999px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .comments-form button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 10px 20px rgba(227, 163, 97, 0.34);
+        }
+
+        .comment {
+            background: rgba(255, 255, 255, 0.09);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+            border-left: 3px solid rgba(227, 163, 97, 0.5);
+        }
+
+        .comment-author {
+            font-weight: 600;
+            color: var(--accent-color);
+            font-size: 0.9rem;
+        }
+
+        .comment-text {
+            margin-top: 0.5rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .most-popular-section {
+            margin-top: 3rem;
+        }
+
+        .popular-quote-item {
+            background: rgba(227, 163, 97, 0.14);
+            border: 1px solid rgba(227, 163, 97, 0.34);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .popular-quote-item:hover {
+            background: rgba(227, 163, 97, 0.26);
+            transform: translateX(4px);
+        }
+
+        .popular-quote-title {
+            font-weight: 600;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .popular-quote-stats {
+            font-size: 0.85rem;
+            color: var(--text-faint);
+        }
+
+        .author-links-section {
+            background: linear-gradient(135deg, rgba(227, 163, 97, 0.17), rgba(227, 163, 97, 0.09));
+            border: 1px solid rgba(227, 163, 97, 0.34);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .author-links-section h3 {
+            margin-top: 0;
+            color: var(--accent-color);
+        }
+
+        .author-link-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .author-link-btn {
+            padding: 0.8rem 1.5rem;
+            background: rgba(227, 163, 97, 0.34);
+            border: 1px solid rgba(227, 163, 97, 0.5);
+            border-radius: 0.5rem;
+            color: var(--accent-color-light);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .author-link-btn:hover {
+            background: rgba(227, 163, 97, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .related-quotes-section {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: rgba(227, 163, 97, 0.14);
+            border: 1px solid rgba(227, 163, 97, 0.26);
+            border-radius: 1rem;
+            display: none;
+        }
+
+        .related-quotes-section.active {
+            display: block;
+        }
+
+        .related-quote-item {
+            background: rgba(255, 255, 255, 0.09);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+            border-left: 3px solid rgba(227, 163, 97, 0.5);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .related-quote-item:hover {
+            background: rgba(255, 255, 255, 0.14);
+            transform: translateX(4px);
+        }
+
+        @media (max-width: 720px) {
+            header {
+                padding: calc(3rem + env(safe-area-inset-top)) 1rem 1.5rem;
+            }
+
+            .hero {
+                padding: 2.2rem 1.5rem;
+                min-height: auto;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .card-grid {
+                gap: 1rem;
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                padding: 1.25rem;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 0;
+                font-size: 0.85rem;
+                padding: 0.4rem 0;
+            }
+
+            .search-container {
+                margin-top: 1rem;
+                max-width: 100%;
+            }
+
+            .newsletter-input {
+                flex-direction: column;
+            }
+
+            .newsletter-input button {
+                width: 100%;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .blog-post {
+                padding: 1.5rem;
+            }
+
+            .daily-quote-box {
+                padding: 1.5rem;
+            }
+
+            main {
+                padding: 2rem 1.25rem;
+            }
+
+            .theme-toggle {
+                font-size: 0.8rem;
+                padding: 0.45rem 0.85rem;
+            }
+
+            .scroll-buttons {
+                gap: 0.5rem;
+            }
+
+            .scroll-button {
+                width: 40px;
+                height: 40px;
+            }
+
+            .category-filter-buttons,
+            .author-link-buttons,
+            .share-links,
+            .social-links {
+                gap: 0.5rem;
+            }
+
+            .auth-card {
+                padding: 1.5rem;
+            }
+        }
+
+        /* Fine-tuning for typical Android/iOS portrait phone widths */
+        @media (max-width: 430px) {
+            header h1 {
+                font-size: 1.9rem;
+                letter-spacing: 1px;
+            }
+
+            .hero {
+                padding: 1.75rem 1.1rem;
+            }
+
+            .hero h2 {
+                font-size: 1.6rem;
+            }
+
+            main {
+                padding: 1.75rem 1rem;
+            }
+
+            .quote,
+            .testimonial-card,
+            .blog-post,
+            .daily-quote-box,
+            .newsletter-form,
+            .bio-section,
+            .category-filter-section,
+            .comments-section,
+            .related-quotes-section,
+            .author-links-section {
+                padding: 1.25rem;
+            }
+        }
+
+        /* Ensure comfortable tap targets in any orientation on touch devices */
+        @media (pointer: coarse) {
+            nav a,
+            .category-filter-btn,
+            .author-link-btn,
+            .daily-quote-button,
+            .favorite-button,
+            .copy-button,
+            .social-link,
+            .scroll-button,
+            .theme-toggle {
+                min-height: 40px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Apply saved theme before first paint to avoid a dark-then-light flash -->
+    <script>
+        (function() {
+            try {
+                if (localStorage.getItem('selectedTheme') === 'light') {
+                    document.body.classList.add('light-theme');
+                }
+            } catch (e) {}
+        })();
+    </script>
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- Ambient background decoration: soft color blobs + scattered sparkles, purely decorative -->
+    <div class="ambient-decor" aria-hidden="true">
+        <div class="ambient-blob ambient-blob--1"></div>
+        <div class="ambient-blob ambient-blob--2"></div>
+        <div class="ambient-blob ambient-blob--3"></div>
+        <div class="ambient-blob ambient-blob--4"></div>
+        <div class="ambient-blob ambient-blob--5"></div>
+
+        <span class="ambient-sparkle" style="top: 6%; left: 12%; font-size: 0.9rem; animation-delay: 0s; color: var(--accent-color);">✦</span>
+        <span class="ambient-sparkle" style="top: 14%; left: 78%; font-size: 0.6rem; animation-delay: 1.5s; color: var(--accent-teal);">✦</span>
+        <span class="ambient-sparkle" style="top: 28%; left: 45%; font-size: 0.5rem; animation-delay: 2.8s; color: var(--accent-violet);">✦</span>
+        <span class="ambient-sparkle" style="top: 40%; left: 8%; font-size: 0.7rem; animation-delay: 0.8s; color: var(--accent-rose);">✦</span>
+        <span class="ambient-sparkle" style="top: 52%; left: 88%; font-size: 0.55rem; animation-delay: 3.4s; color: var(--accent-sage);">✦</span>
+        <span class="ambient-sparkle" style="top: 63%; left: 22%; font-size: 0.65rem; animation-delay: 1.1s; color: var(--accent-coral);">✦</span>
+        <span class="ambient-sparkle" style="top: 75%; left: 60%; font-size: 0.8rem; animation-delay: 2.2s; color: var(--accent-color);">✦</span>
+        <span class="ambient-sparkle" style="top: 85%; left: 15%; font-size: 0.5rem; animation-delay: 4s; color: var(--accent-teal);">✦</span>
+        <span class="ambient-sparkle" style="top: 92%; left: 70%; font-size: 0.6rem; animation-delay: 0.4s; color: var(--accent-violet);">✦</span>
+        <span class="ambient-sparkle" style="top: 20%; left: 95%; font-size: 0.45rem; animation-delay: 2.6s; color: var(--accent-rose);">✦</span>
+
+        <span class="ambient-dust" style="top: 10%; left: 30%; animation-delay: 0.5s;"></span>
+        <span class="ambient-dust" style="top: 35%; left: 65%; animation-delay: 1.7s;"></span>
+        <span class="ambient-dust" style="top: 48%; left: 5%; animation-delay: 2.9s;"></span>
+        <span class="ambient-dust" style="top: 58%; left: 40%; animation-delay: 0.2s;"></span>
+        <span class="ambient-dust" style="top: 70%; left: 85%; animation-delay: 3.6s;"></span>
+        <span class="ambient-dust" style="top: 80%; left: 25%; animation-delay: 1.3s;"></span>
+        <span class="ambient-dust" style="top: 95%; left: 55%; animation-delay: 2.1s;"></span>
+    </div>
+
+    <div class="auth-screen" id="authScreen">
+        <div class="auth-card">
+            <h2>Sign in to continue</h2>
+            <p>Please log in before accessing the site.</p>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter email" autocomplete="email">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Enter password" autocomplete="current-password">
+            <button id="loginButton" type="button">Login</button>
+            <p class="auth-error" id="authError" aria-live="polite"></p>
+        </div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" title="Toggle light/dark mode">☀️ Light</button>
+    <header>
+        <h1>JAY WALKER MOTIVATION</h1>
+        <p>Poet & Quote Writer</p>
+        <div class="header-flourish" aria-hidden="true"><span>✦</span></div>
+        <nav aria-label="Primary">
+            <a href="#about">About</a>
+            <a href="#quotes">Quotes</a>
+            <a href="#featured">Featured</a>
+            <a href="#latest">Latest</a>
+            <a href="#categories">Categories</a>
+            <a href="#blog">Blog</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search quotes by title or keyword...">
+            <div id="searchResults" class="search-results"></div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="main-content">
+        <section class="hero">
+            <span class="hero-sparkle" aria-hidden="true" style="top: 12%; left: 8%; font-size: 1rem; animation-delay: 0s;">✦</span>
+            <span class="hero-sparkle" aria-hidden="true" style="top: 22%; right: 10%; font-size: 0.75rem; animation-delay: 1.2s; color: var(--accent-teal);">✦</span>
+            <span class="hero-sparkle" aria-hidden="true" style="bottom: 18%; left: 14%; font-size: 0.6rem; animation-delay: 2.1s; color: var(--accent-rose);">✦</span>
+            <span class="hero-sparkle" aria-hidden="true" style="bottom: 14%; right: 16%; font-size: 0.9rem; animation-delay: 0.6s; color: var(--accent-violet);">✦</span>
+            <span class="hero-sparkle" aria-hidden="true" style="top: 45%; left: 4%; font-size: 0.55rem; animation-delay: 1.8s; color: var(--accent-sage);">✦</span>
+            <span class="hero-sparkle" aria-hidden="true" style="top: 8%; right: 30%; font-size: 0.65rem; animation-delay: 2.6s; color: var(--accent-coral);">✦</span>
+            <p>Modern poetry with calm clarity, designed for readers seeking brief moments of reflection.</p>
+            <h2>Explore verse that feels polished and purposeful</h2>
+            <p>Each quote is crafted for focus, resilience, and subtle style. Discover the work in a clean, intentional layout.</p>
+            <a class="button" href="#quotes">Read the quotes</a>
+        </section>
+
+        <section id="about">
+            <h2>About Jay Walker</h2>
+            <div class="section-intro">
+                <p>Poetry for quiet strength, gentle courage, and daily reflection. Jay writes short pieces that connect with emotion, faith, and everyday resilience.</p>
+            </div>
+            <div class="bio-section">
+                <h3>The Poet's Voice</h3>
+                <p>Jay Walker is a poet and motivational writer dedicated to crafting verses that inspire calm strength and purposeful reflection. With a background rooted in faith and human connection, Jay's work explores themes of hope, resilience, and quiet courage.</p>
+                <p>Through carefully chosen words and meaningful imagery, each quote is designed as a moment of pause—a gentle reminder that you are not alone in your struggles, and that every day offers a fresh opportunity for growth and grace.</p>
+                <p>Jay's mission is to create a space where readers can find solace, motivation, and inspiration through poetry that speaks to the heart and nourishes the soul.</p>
+            </div>
+        </section>
+
+        <!-- Daily Quote Section -->
+        <section id="daily-quote">
+            <div class="daily-quote-box">
+                <h3>✨ Quote of the Day</h3>
+                <div id="dailyQuoteContent" class="daily-quote-content"></div>
+                <button id="dailyQuoteButton" class="daily-quote-button">Get a Random Quote</button>
+            </div>
+        </section>
+
+        <!-- Favorites Section -->
+        <section id="favorites-view">
+            <div class="favorites-section" id="favoritesSection">
+                <h3>❤ My Favorites</h3>
+                <div id="favoritesList" class="favorites-list"></div>
+            </div>
+        </section>
+
+        <!-- Poetry Portfolio Section -->
+        <section id="quotes">
+            <h2>Quotes</h2>
+
+            <!-- Quote 1 -->
+            <div class="quote quote--still" data-quote-title="Be Still" data-quote-content="God knows you're exhausted.
+He knows you're doing your best.
+He knows you don't have all the future.
+But He sees you. He sees that you
+haven't given up. He has a plan for you,
+and He will make a way. Amen.
+-JW-" data-tags="Faith, Motivation, Hope"><div class="quote-title">Be Still <button class="copy-button" title="Copy to clipboard" aria-label="Copy quote to clipboard">📋</button> <button class="favorite-button" data-quote-title="Be Still" title="Add to favorites" aria-label="Add Be Still to favorites">♡</button></div>
+God knows you're exhausted.
+He knows you're doing your best.
+He knows you don't have all the future.
+But He sees you. He sees that you
+haven't given up. He has a plan for you,
+and He will make a way. Amen.
+-JW-
+<div class="quote-tags"><span class="quote-tag" data-cat="Faith">Faith</span><span class="quote-tag" data-cat="Motivation">Motivation</span><span class="quote-tag" data-cat="Hope">Hope</span></div>
+<div class="comments-section" data-quote="Be Still"><h4>Comments</h4><div class="comments-form"><textarea placeholder="Share your thoughts on this quote..."></textarea><button type="button" onclick="addComment(event, 'Be Still')">Post Comment</button></div><div class="comments-list"></div></div>
+<div class="related-quotes-section" data-quote="Be Still"><h4>Related Quotes</h4><div class="related-list"></div></div></div>
+
+            <!-- Quote 2 -->
+            <div class="quote quote--silent" data-quote-title="Silent Feelings" data-quote-content="Never ignore a person that loves
+you, cares for you, and missed you.
+beacause one day, you might wake up
+from your sleep and realize you lost
+the moon while counting the stars.
+-JW-" data-tags="Love, Reflection, Quiet"><div class="quote-title">Silent Feelings <button class="copy-button" title="Copy to clipboard" aria-label="Copy quote to clipboard">📋</button> <button class="favorite-button" data-quote-title="Silent Feelings" title="Add to favorites" aria-label="Add Silent Feelings to favorites">♡</button></div>
+Never ignore a person that loves
+you, cares for you, and missed you.
+beacause one day, you might wake up
+from your sleep and realize you lost
+the moon while counting the stars.
+-JW-
+<div class="quote-tags"><span class="quote-tag" data-cat="Love">Love</span><span class="quote-tag" data-cat="Reflection">Reflection</span><span class="quote-tag" data-cat="Quiet">Quiet</span></div>
+<div class="comments-section" data-quote="Silent Feelings"><h4>Comments</h4><div class="comments-form"><textarea placeholder="Share your thoughts on this quote..."></textarea><button type="button" onclick="addComment(event, 'Silent Feelings')">Post Comment</button></div><div class="comments-list"></div></div>
+<div class="related-quotes-section" data-quote="Silent Feelings"><h4>Related Quotes</h4><div class="related-list"></div></div></div>
+
+            <!-- Quote 3 -->
+            <div class="quote quote--life" data-quote-title="Life Says" data-quote-content="Life says everyday is a chance to begin again.
+Don't focus on the failure
+of yesterday.
+Start today with a positive thought and 
+experience.-JW-" data-tags="Motivation, Hope, Reflection"><div class="quote-title">Life Says <button class="copy-button" title="Copy to clipboard" aria-label="Copy quote to clipboard">📋</button> <button class="favorite-button" data-quote-title="Life Says" title="Add to favorites" aria-label="Add Life Says to favorites">♡</button></div>
+Life says everyday is a chance to begin again.
+Don't focus on the failure
+of yesterday.
+Start today with a positive thought and 
+experience.-JW-
+<div class="quote-tags"><span class="quote-tag" data-cat="Motivation">Motivation</span><span class="quote-tag" data-cat="Hope">Hope</span><span class="quote-tag" data-cat="Reflection">Reflection</span></div>
+<div class="comments-section" data-quote="Life Says"><h4>Comments</h4><div class="comments-form"><textarea placeholder="Share your thoughts on this quote..."></textarea><button type="button" onclick="addComment(event, 'Life Says')">Post Comment</button></div><div class="comments-list"></div></div>
+<div class="related-quotes-section" data-quote="Life Says"><h4>Related Quotes</h4><div class="related-list"></div></div></div>
+        </section>
+
+        <!-- Featured Section -->
+        <section id="featured">
+            <h2>Featured collection</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Seasonal reflections</h3>
+                    <p>Short, memorable pieces capture nature, growth, and quiet moments with a refined tone.</p>
+                </article>
+                <article class="card">
+                    <h3>Daily motivation</h3>
+                    <p>Try to be a rainbow 
+                        in someone's cloud.</p>
+                </article>
+                <article class="card">
+                    <h3>Daily Prayer</h3>
+                    <p>Clean typography, spacious layout, and subtle accents keep the page calm and easy to read.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Latest Quotes Section -->
+        <section id="latest">
+            <div class="section-intro">
+                <p>Fresh quotes and brief reflections. Explore recent work and discover new favorites.</p>
+            </div>
+            <h2>Latest quotes</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Sunrise promise</h3>
+                    <p>Soft morning light lifts quiet hope into a spell of simple gratitude and steady growth.</p>
+                </article>
+                <article class="card">
+                    <h3>Quiet strength</h3>
+                    <p>Every breath is a small victory, a reminder that you can hold steady through uncertainty.</p>
+                </article>
+                <article class="card">
+                    <h3>Evening calm</h3>
+                    <p>Let the day settle gently, and carry its lessons into the peace of night.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories">
+            <h2>Poetry categories</h2>
+            <div class="section-intro">
+                <p>Explore poetic themes with dedicated cards for each mood, making it easy to find the verse you need.</p>
+            </div>
+            <div class="badge-grid">
+                <a class="category-button" href="#motivation">Motivation</a>
+                <a class="category-button" href="#faith">Faith</a>
+                <a class="category-button" href="#quiet">Quiet</a>
+                <a class="category-button" href="#nature">Nature</a>
+                <a class="category-button" href="#love">Love</a>
+                <a class="category-button" href="#reflection">Reflection</a>
+                <a class="category-button" href="#hope">Hope</a>
+            </div>
+
+            <div id="motivation" class="category-group">
+                <h3 class="category-title">Motivation</h3>
+                <div class="card-grid">
+                    <article class="card"><h3>Morning momentum</h3><p>Wake with a thought that lifts your pace and keeps the day moving forward.</p></article>
+                    <article class="card"><h3>Rise again</h3><p>Every fall becomes a lesson when the heart chooses to stand once more.</p></article>
+                    <article class="card"><h3>Quiet courage</h3><p>Strength appears softly in the moments when you keep going even without applause.</p></article>
+                    <article class="card"><h3>Keep moving</h3><p>Forward motion is the gift you give yourself each morning, no matter how small.</p></article>
+                    <article class="card"><h3>Steady spark</h3><p>A single ember can light the path to a brighter, balanced day.</p></article>
+                    <article class="card"><h3>Small victories</h3><p>Celebrate each tiny win, because they build the courage to fight tomorrow.</p></article>
+                    <article class="card"><h3>Bold beginning</h3><p>Start with intention, and the rest of the day will follow a steady rhythm.</p></article>
+                    <article class="card"><h3>Inner fire</h3><p>Your deepest motivation glows beneath every doubt and carries you forward.</p></article>
+                    <article class="card"><h3>Tomorrow’s step</h3><p>Prepare today with a gentle hope so tomorrow becomes easier to face.</p></article>
+                    <article class="card"><h3>Driven dawn</h3><p>Let the morning light remind you that new chances always arrive with the sun.</p></article>
+                </div>
+            </div>
+
+            <div id="faith" class="category-group">
+                <h3 class="category-title">Faith</h3>
+                <div class="card-grid">
+                    <article class="card"><h3>Trust in grace</h3><p>Let faith guide you through uncertainty with a calm, steady hand.</p></article>
+                    <article class="card"><h3>Light unseen</h3><p>Even in darkness, there is a quiet source of hope that never fades.</p></article>
+                    <article class="card"><h3>Prayerful pause</h3><p>Take a moment to breathe and feel the peace that comes with quiet prayer.</p></article>
+                    <article class="card"><h3>Guided path</h3><p>Follow the steps placed before you with faith that each one has purpose.</p></article>
+                    <article class="card"><h3>Sacred breath</h3><p>Every breath can be an act of gratitude when you remember you are held.</p></article>
+                    <article class="card"><h3>Gentle promise</h3><p>Hope arrives softly in the form of a promise you can trust.</p></article>
+                    <article class="card"><h3>Hope anchored</h3><p>Your soul stays steady when trust is rooted in something greater.</p></article>
+                    <article class="card"><h3>Divine quiet</h3><p>Silence becomes a sacred place where faith speaks most clearly.</p></article>
+                    <article class="card"><h3>Unseen faithful</h3><p>Your journey is supported by unseen strength that carries you forward.</p></article>
+                    <article class="card"><h3>Blessed morning</h3><p>Each dawn is a gentle reminder that mercy and grace are always near.</p></article>
+                </div>
+            </div>
+
+            <div id="quiet" class="category-group">
+                <h3 class="category-title">Quiet</h3>
+                <div class="card-grid">
+                    <article class="card"><h3>Still heartbeat</h3><p>Listen to calm within; it carries the truth your mind may not yet hear.</p></article>
+                    <article class="card"><h3>Whispered pause</h3><p>Soft moments of silence can be the most honest conversations with yourself.</p></article>
+                    <article class="card"><h3>Midnight hush</h3><p>The night offers a quiet space for the heart to rest and reflect.</p></article>
+                    <article class="card"><h3>Soft horizon</h3><p>Quiet brings clarity when the day feels crowded and thoughts are loud.</p></article>
+                    <article class="card"><h3>Gentle silence</h3><p>In the calm, you can find a gentler truth waiting to be discovered.</p></article>
+                    <article class="card"><h3>Subtle hush</h3><p>Stillness is a soft companion that helps your soul settle into peace.</p></article>
+                    <article class="card"><h3>Calm reflection</h3><p>When noise falls away, meaning becomes easier to see.</p></article>
+                    <article class="card"><h3>Serene moment</h3><p>Let a quiet minute fill you with the calm you did not know you needed.</p></article>
+                    <article class="card"><h3>Meadow quiet</h3><p>The whisper of grass and sky reminds the spirit how to breathe slowly.</p></article>
+                    <article class="card"><h3>Quiet strength</h3><p>True power grows from stillness, not from noise.</p></article>
+                </div>
+            </div>
+
+            <div id="nature" class="category-group">
+                <h3 class="category-title">Nature</h3>
+                <div class="card-grid">
+                    <article class="card"><h3>River of light</h3><p>Water reflects the day’s warmth and carries hope downstream.</p></article>
+                    <article class="card"><h3>Autumn hush</h3><p>Leaves fall quietly, reminding us that change can be beautiful.</p></article>
+                    <article class="card"><h3>Garden breeze</h3><p>A gentle wind lifts the scent of blooms and calms the breath.</p></article>
+                    <article class="card"><h3>Moonlit trail</h3><p>Night paths glow softly when you follow the light within.</p></article>
+                    <article class="card"><h3>Morning meadow</h3><p>Dewy fields welcome each new day with quiet generosity.</p></article>
+                    <article class="card"><h3>Seed and sky</h3><p>Every small beginning reaches upward toward vast possibility.</p></article>
+                    <article class="card"><h3>Ocean tide</h3><p>The rhythm of waves reminds us that life moves in cycles of return.</p></article>
+                    <article class="card"><h3>Winter glow</h3><p>Even in chill, the world offers subtle warmth and quiet beauty.</p></article>
+                    <article class="card"><h3>Forest breath</h3><p>Trees share the same quiet strength that anchors the earth.</p></article>
+                    <article class="card"><h3>Petal promise</h3><p>Soft blossoms carry the hope that new growth is always possible.</p></article>
+                </div>
+            </div>
+
+            <div id="love" class="category-group">
+                <h3 class="category-title">Love</h3>
+                <div class="card-grid">
+                    <article class="card"><h3>Heartsong</h3><p>Love is a quiet song that carries the soul through every season.</p></article>
+                    <article class="card"><h3>Soft embrace</h3><p>Warmth arrives in gentle words and steady presence.</p></article>
+                    <article class="card"><h3>Shared dawn</h3><p>Two hearts wake together to a day filled with possibility.</p></article>
+                    <article class="card"><h3>Golden thread</h3><p>Love connects us with a thread that never frays, even in silence.</p></article>
+                    <article class="card"><h3>Thoughts of you</h3><p>Every quiet memory becomes brighter when it carries someone you care about.</p></article>
+                    <article class="card"><h3>Gentle promise</h3><p>True love is shown in the simple acts that happen without looking.</p></article>
+                    <article class="card"><h3>Heart’s light</h3><p>When love is near, the world feels more patient and kind.</p></article>
+                    <article class="card"><h3>Tender truth</h3><p>The deepest love speaks softly and holds every part of you with grace.</p></article>
+                    <article class="card"><h3>Quiet devotion</h3><p>Love is the steady care that remains even when words are few.</p></article>
+                    <article class="card"><h3>Beloved path</h3><p>Walking with love makes every step feel more certain and warm.</p></article>
+                </div>
+            </div>
+
+            <div id="reflection" class="category-group">
+                <h3 class="category-title">Reflection</h3>
+                <div class="card-grid">
+                    <article class="card"><h3>Mirror of truth</h3><p>Look inward and let honesty guide your next step.</p></article>
+                    <article class="card"><h3>Yesterday’s gift</h3><p>Past moments offer lessons when you choose to learn instead of linger.</p></article>
+                    <article class="card"><h3>Thoughts like rain</h3><p>Allow ideas to settle gently over time and nourish the mind.</p></article>
+                    <article class="card"><h3>Quiet mirror</h3><p>Reflection grows richest in the stillness between events.</p></article>
+                    <article class="card"><h3>Reflective rhythm</h3><p>Slow reflection brings clarity more than hurried answers ever can.</p></article>
+                    <article class="card"><h3>Mindful pause</h3><p>Resting for a moment can reveal what words alone cannot.</p></article>
+                    <article class="card"><h3>Lessons in stillness</h3><p>The quiet teaches truths the busy world often misses.</p></article>
+                    <article class="card"><h3>Memory glow</h3><p>Soft recollections warm the soul and shape the present.</p></article>
+                    <article class="card"><h3>Deep looking</h3><p>See beyond the surface and discover the wisdom waiting there.</p></article>
+                    <article class="card"><h3>Gentle insight</h3><p>True understanding comes when you listen with patience.</p></article>
+                </div>
+            </div>
+
+            <div id="hope" class="category-group">
+                <h3 class="category-title">Hope</h3>
+                <div class="card-grid">
+                    <article class="card"><h3>Light ahead</h3><p>Every path holds a brightness waiting to be discovered.</p></article>
+                    <article class="card"><h3>Dawn within</h3><p>Hope begins quietly in the heart before it appears in the world.</p></article>
+                    <article class="card"><h3>Soft promise</h3><p>There is grace in the gentle certainty that things can improve.</p></article>
+                    <article class="card"><h3>New dawn</h3><p>Every sunrise brings the chance to start with fresh hope.</p></article>
+                    <article class="card"><h3>Hopeful thread</h3><p>A small belief can weave strength through the most difficult day.</p></article>
+                    <article class="card"><h3>Rising ember</h3><p>Hope glows steadily even when the world feels dim.</p></article>
+                    <article class="card"><h3>Bright return</h3><p>What was lost can come back in a new, gentle form.</p></article>
+                    <article class="card"><h3>Tender future</h3><p>The future is soft and full of possibility when you choose to believe.</p></article>
+                    <article class="card"><h3>Courage to begin</h3><p>Hope gives you the strength to take the first step again.</p></article>
+                    <article class="card"><h3>Promise kept</h3><p>Trust that what is meant for you will arrive in its own time.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog">
+            <h2>Blog & Insights</h2>
+            <div class="section-intro">
+                <p>Explore the inspiration and philosophy behind the quotes. Discover stories, techniques, and reflections on poetry writing.</p>
+            </div>
+            <div class="blog-grid" id="blogContainer"></div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <h2>Reader Reviews</h2>
+            <div class="section-intro">
+                <p>Hear from readers about how these quotes have touched their lives and inspired their journeys.</p>
+            </div>
+            <div class="testimonials-grid" id="testimonialsList"></div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section id="newsletter">
+            <div class="newsletter-form">
+                <h3>Get Poetry in Your Inbox</h3>
+                <p>Subscribe to receive the latest quotes and reflections delivered to your email.</p>
+                <form id="newsletterForm" onsubmit="handleNewsletterSignup(event)">
+                    <div class="newsletter-input">
+                        <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                    <p id="newsletterMessage" class="newsletter-message"></p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Most Popular Section -->
+        <section id="popular">
+            <h2>Most Popular Quotes</h2>
+            <div class="section-intro">
+                <p>The quotes that resonate most with our readers, based on favorites and downloads.</p>
+            </div>
+            <div id="mostPopularContainer" class="card-grid"></div>
+        </section>
+
+        <!-- Author Links Section -->
+        <section class="author-links-section">
+            <h3>Support Jay Walker</h3>
+            <p>Explore more of Jay's work and stay connected:</p>
+            <div class="author-link-buttons">
+                <a href="https://www.instagram.com" target="_blank" rel="noreferrer" class="author-link-btn">Follow on Instagram</a>
+                <a href="https://www.patreon.com" target="_blank" rel="noreferrer" class="author-link-btn">Support on Patreon</a>
+                <a href="https://amazon.com" target="_blank" rel="noreferrer" class="author-link-btn">Buy Books</a>
+            </div>
+        </section>
+
+        <!-- Category Search Filter -->
+        <section class="category-filter-section">
+            <h3>Filter Quotes by Category</h3>
+            <div class="category-filter-buttons">
+                <button class="category-filter-btn active" data-category="all">All Quotes</button>
+                <button class="category-filter-btn" data-category="Faith">Faith</button>
+                <button class="category-filter-btn" data-category="Motivation">Motivation</button>
+                <button class="category-filter-btn" data-category="Hope">Hope</button>
+                <button class="category-filter-btn" data-category="Love">Love</button>
+                <button class="category-filter-btn" data-category="Reflection">Reflection</button>
+                <button class="category-filter-btn" data-category="Quiet">Quiet</button>
+            </div>
+            <div id="filteredResults" style="margin-top: 2rem;"></div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="section-intro">
+                <p>For inquiries, publications, or collaborations, feel free to reach out via email or phone. Share the quotes with friends to help the site grow.</p>
+            </div>
+            <p>Contact via email: <a href="mailto:jayw18239@gmail.com" class="email-link">jayw18239@gmail.com</a></p>
+            <p>Phone: <a href="tel:+256759924353">+256759924353</a></p>
+            <form id="feedbackForm" class="feedback-form">
+                <label for="feedbackName">Your name</label>
+                <input id="feedbackName" name="name" type="text" placeholder="Enter your name">
+                <label for="feedbackEmail">Your email</label>
+                <input id="feedbackEmail" name="email" type="email" placeholder="Enter your email">
+                <label for="feedbackMessage">Your feedback</label>
+                <textarea id="feedbackMessage" name="message" placeholder="Tell us what you like or what could be improved..."></textarea>
+                <button type="submit">Send feedback</button>
+                <p id="feedbackStatus" class="feedback-message" aria-live="polite"></p>
+            </form>
+            <div class="share-links">
+                <a id="shareFacebook" class="share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://example.com" target="_blank" rel="noreferrer">Share on Facebook</a>
+                <a id="shareTwitter" class="share-link" href="https://twitter.com/intent/tweet?text=Discover%20poetry%20from%20Jay%20Walker&url=https://example.com" target="_blank" rel="noreferrer">Share on Twitter</a>
+                <a id="shareWhatsapp" class="share-link" href="https://wa.me/?text=Discover%20Jay%20Walker%20Poetry%20at%20https://example.com" target="_blank" rel="noreferrer">Share on WhatsApp</a>
+                <a id="shareEmail" class="share-link" href="mailto:?subject=Check%20out%20Jay%20Walker%20Poetry&body=I%20thought%20you%20might%20enjoy%20this%20poetry%20site:%20https://example.com" rel="noreferrer">Share via Email</a>
+                <a id="shareTelegram" class="share-link" href="https://t.me/share/url?url=https://example.com&text=Discover%20poetry%20from%20Jay%20Walker" target="_blank" rel="noreferrer">Share on Telegram</a>
+                <button type="button" class="share-link" onclick="shareCopyLink('Instagram')">Share on Instagram</button>
+                <button type="button" class="share-link" onclick="shareCopyLink('TikTok')">Share on TikTok</button>
+                <button type="button" class="share-link" onclick="shareCopyLink('YouTube')">Share on YouTube</button>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="scroll-buttons">
+        <a class="scroll-button" href="#about" title="Scroll up">↑</a>
+        <a class="scroll-button" href="#contact" title="Scroll down">↓</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <div class="social-item">
+                <a href="https://www.instagram.com/jaywalkerpoetry" target="_blank" rel="noreferrer" class="social-link" title="Instagram">📷</a>
+                <span class="social-label">jaywalkerpoetry</span>
+            </div>
+            <div class="social-item">
+                <a href="https://www.twitter.com/@jaywalkerpoetry" target="_blank" rel="noreferrer" class="social-link" title="Twitter">𝕏</a>
+                <span class="social-label">@jaywalkerpoetry</span>
+            </div>
+            <div class="social-item">
+                <a href="https://www.facebook.com/JayWalkerPoetry" target="_blank" rel="noreferrer" class="social-link" title="Facebook">f</a>
+                <span class="social-label">JayWalkerPoetry</span>
+            </div>
+            <div class="social-item">
+                <a href="https://www.youtube.com/@JayWalkerPoetry" target="_blank" rel="noreferrer" class="social-link" title="YouTube">▶</a>
+                <span class="social-label">@JayWalkerPoetry</span>
+            </div>
+            <div class="social-item">
+                <a href="mailto:jayw18239@gmail.com" class="social-link" title="Email">✉</a>
+                <span class="social-label">Email</span>
+            </div>
+            <div class="social-item">
+                <a href="https://wa.me/256759924353" target="_blank" rel="noreferrer" class="social-link" title="WhatsApp"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.65-2.05-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.48-.5-.67-.51-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/><path d="M12.02 2C6.5 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.08-1.33A9.96 9.96 0 0 0 12.02 22c5.52 0 10-4.48 10-10s-4.48-10-10-10zm0 18.15c-1.66 0-3.2-.46-4.52-1.26l-.32-.19-3.02.79.81-2.94-.21-.31A8.14 8.14 0 0 1 3.85 12c0-4.5 3.67-8.15 8.17-8.15S20.19 7.5 20.19 12s-3.67 8.15-8.17 8.15z"/></svg></a>
+                <span class="social-label">+256759924353</span>
+            </div>
+            <div class="social-item">
+                <a href="https://www.tiktok.com/@jaywalkerpoetry" target="_blank" rel="noreferrer" class="social-link" title="TikTok"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M16.5 0h-3.3v15.4a3.1 3.1 0 1 1-2.2-2.97V9.03a6.3 6.3 0 1 0 5.5 6.25V9.68a8.16 8.16 0 0 0 4.9 1.63V8.02a4.85 4.85 0 0 1-4.9-4.82V0z"/></svg></a>
+                <span class="social-label">@jaywalkerpoetry</span>
+            </div>
+        </div>
+        <p>&copy; 2026 Jay Walker. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        // ============ DATA ============
+        const BLOG_POSTS = [
+            { title: 'Finding Inspiration in Daily Moments', date: '2026-07-08', excerpt: 'Discover how ordinary moments can spark extraordinary poetry. Learn techniques for capturing emotions and translating them into powerful words.', content: 'Inspiration rarely announces itself. It hides in the pause before a kettle boils, in the way morning light lands on a wall, in a stranger\'s tired smile on the bus. The discipline of noticing is the first skill any writer needs.\n\nCarry a small notebook, or use the notes app on your phone, and capture the moment before it fades: not the whole feeling, just the detail that triggered it. A phrase. A color. A sound. Later, when you sit down to write, that detail becomes the seed a whole poem can grow from.\n\nThe goal isn\'t to force meaning onto every moment. It\'s to stay awake to the ones that already carry it.' },
+            { title: 'The Art of Brevity in Poetry', date: '2026-07-05', excerpt: 'Short quotes can carry profound meaning. Explore how carefully chosen words create impact and why silence is sometimes as important as sound.', content: 'A short poem has nowhere to hide. Every word has to earn its place, which is exactly what makes brevity such a demanding craft. Cutting is often harder than writing.\n\nWhen I revise a piece, I ask what happens if I remove this line entirely. If the poem loses nothing, the line wasn\'t doing its job. What survives that test is usually the truest part of what I was trying to say.\n\nSilence matters too. The white space around a short quote gives the reader room to bring their own experience to it. A brief line, left alone, can hold more than a paragraph that explains too much.' },
+            { title: 'Writing for Calm Strength', date: '2026-07-02', excerpt: 'Poetry as a tool for resilience. Learn how to craft verses that comfort the soul and inspire quiet courage in uncertain times.', content: 'Calm strength isn\'t the absence of struggle, it\'s the steadiness that carries you through it. That\'s the tone I try to write toward: not denial of hardship, but companionship inside it.\n\nWhen I write for resilience, I avoid easy comfort. Lines like "everything happens for a reason" can feel hollow in the middle of real pain. Instead I try to name the difficulty honestly, then offer something steady to hold onto, a breath, a small next step, a reminder that the reader is still here and still capable.\n\nIf a poem can sit beside someone in a hard moment without rushing them out of it, it\'s done its work.' },
+            { title: 'Faith-Based Poetry: Connecting the Spiritual and Personal', date: '2026-06-29', excerpt: 'How faith informs creative expression. Discover the intersection of spirituality and poetry writing in building a meaningful voice.', content: 'Faith, for me, isn\'t a separate subject I write about, it\'s the lens the rest of my writing passes through. It shapes how I see endurance, forgiveness, and hope, even in poems that never mention it directly.\n\nWriting faith-based poetry means balancing conviction with honesty. Readers can tell when a line is performing belief rather than living it. I try to write from the questions as much as the certainties, because that\'s where most people actually meet their faith day to day.\n\nWhen it works, a faith-rooted poem doesn\'t ask the reader to share every belief I hold. It just offers a moment of quiet solidarity, the sense that they are seen and not alone.' }
+        ];
+
+        const TESTIMONIALS = [
+            { text: 'These quotes have become my daily anchor. Every morning I read one and it centers me for the day ahead.', author: 'Sarah M.' },
+            { text: 'Jay\'s work speaks to my soul. The quiet strength in every line reminds me that I\'m not alone.', author: 'Marcus T.' },
+            { text: 'I share these quotes with friends who are struggling. They always respond saying how much they needed to read those words.', author: 'Elena R.' },
+            { text: 'The faith-based quotes are incredibly meaningful. They combine hope with realism in a way that feels authentic.', author: 'James L.' },
+            { text: 'Beautiful, thoughtful, and inspiring. This is poetry that heals.', author: 'Rebecca K.' },
+            { text: 'I\'ve been reading these for months. Each quote offers a different perspective on strength and resilience.', author: 'David S.' }
+        ];
+
+        // ============ AUTHENTICATION ============
+        const AUTH_KEY = 'poetryWebsiteLoggedIn';
+        const authScreen = document.getElementById('authScreen');
+        const loginButton = document.getElementById('loginButton');
+        const authError = document.getElementById('authError');
+        const emailInput = document.getElementById('email');
+        const passwordInput = document.getElementById('password');
+
+        function showAuthScreen(visible) {
+            authScreen.style.display = visible ? 'flex' : 'none';
+        }
+
+        function isLoggedIn() {
+            return localStorage.getItem(AUTH_KEY) === 'true';
+        }
+
+        function handleLogin() {
+            const email = emailInput.value.trim().toLowerCase();
+            const password = passwordInput.value;
+
+            if (!email || !password) {
+                authError.textContent = 'Please enter both email and password.';
+                return;
+            }
+
+            const validEmail = 'guest@example.com';
+            const validPassword = 'poetry123';
+
+            if (email === validEmail && password === validPassword) {
+                localStorage.setItem(AUTH_KEY, 'true');
+                showAuthScreen(false);
+                authError.textContent = '';
+                return;
+            }
+
+            authError.textContent = 'Invalid login. Use guest@example.com / poetry123.';
+        }
+
+        loginButton.addEventListener('click', handleLogin);
+        passwordInput.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                handleLogin();
+            }
+        });
+
+        // ============ SEARCH FUNCTIONALITY ============
+        const searchInput = document.getElementById('searchInput');
+        const searchResults = document.getElementById('searchResults');
+
+        function getAllQuotes() {
+            const quotes = [];
+            document.querySelectorAll('[data-quote-title]').forEach(el => {
+                quotes.push({
+                    title: el.dataset.quoteTitle,
+                    content: el.dataset.quoteContent
+                });
+            });
+            document.querySelectorAll('.card h3, .blog-post h3').forEach(el => {
+                if (el.textContent.trim()) {
+                    quotes.push({
+                        title: el.textContent.trim(),
+                        content: el.parentElement.innerText.substring(0, 100)
+                    });
+                }
+            });
+            return quotes;
+        }
+
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.trim().toLowerCase();
+            searchResults.innerHTML = '';
+
+            if (!query) {
+                searchResults.classList.remove('active');
+                return;
+            }
+
+            const quotes = getAllQuotes();
+            const filtered = quotes.filter(p =>
+                p.title.toLowerCase().includes(query) || p.content.toLowerCase().includes(query)
+            );
+
+            if (filtered.length > 0) {
+                searchResults.classList.add('active');
+                filtered.slice(0, 6).forEach(quote => {
+                    const resultItem = document.createElement('div');
+                    resultItem.className = 'search-result-item';
+                    resultItem.innerHTML = `<h4>${quote.title}</h4><p>${quote.content.substring(0, 60)}...</p>`;
+                    resultItem.addEventListener('click', () => {
+                        const element = document.querySelector(`[data-quote-title="${quote.title}"]`);
+                        if (element) {
+                            element.scrollIntoView({ behavior: 'smooth' });
+                            searchInput.value = '';
+                            searchResults.classList.remove('active');
+                        }
+                    });
+                    searchResults.appendChild(resultItem);
+                });
+            } else {
+                searchResults.classList.remove('active');
+            }
+        });
+
+        // ============ FAVORITES FUNCTIONALITY ============
+        const FAVORITES_KEY = 'quoteFavorites';
+
+        function getFavorites() {
+            const stored = localStorage.getItem(FAVORITES_KEY);
+            return stored ? JSON.parse(stored) : [];
+        }
+
+        function saveFavorites(favorites) {
+            localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+            updateFavoritesUI();
+        }
+
+        function toggleFavorite(title) {
+            let favorites = getFavorites();
+            const index = favorites.findIndex(f => f === title);
+            if (index > -1) {
+                favorites.splice(index, 1);
+            } else {
+                favorites.push(title);
+            }
+            saveFavorites(favorites);
+        }
+
+        function updateFavoritesUI() {
+            const favorites = getFavorites();
+            const favSection = document.getElementById('favoritesSection');
+            const favoritesList = document.getElementById('favoritesList');
+
+            // Update favorite buttons
+            document.querySelectorAll('.favorite-button').forEach(btn => {
+                const title = btn.dataset.quoteTitle;
+                if (favorites.includes(title)) {
+                    btn.classList.add('favorited');
+                    btn.textContent = '❤';
+                } else {
+                    btn.classList.remove('favorited');
+                    btn.textContent = '♡';
+                }
+            });
+
+            // Update favorites section
+            if (favorites.length > 0) {
+                favSection.classList.add('active');
+                favoritesList.innerHTML = favorites.map(title => `
+                    <div class="favorites-item" onclick="document.querySelector('[data-quote-title=\\"${title}\\"]')?.scrollIntoView({behavior: 'smooth'})">
+                        <h4>${title}</h4>
+                        <p>Click to view this quote</p>
+                    </div>
+                `).join('');
+            } else {
+                favSection.classList.remove('active');
+            }
+        }
+
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('favorite-button')) {
+                e.preventDefault();
+                e.stopPropagation();
+                toggleFavorite(e.target.dataset.quoteTitle);
+            }
+            if (e.target.classList.contains('copy-button')) {
+                e.preventDefault();
+                e.stopPropagation();
+                const quoteElement = e.target.closest('.quote, .card, .blog-post, .testimonial-card');
+                if (quoteElement) {
+                    copyToClipboard(quoteElement);
+                }
+            }
+        });
+
+        // ============ DAILY QUOTE FUNCTIONALITY ============
+        const dailyQuoteContent = document.getElementById('dailyQuoteContent');
+        const dailyQuoteButton = document.getElementById('dailyQuoteButton');
+
+        function getRandomQuote() {
+            const allQuotes = document.querySelectorAll('[data-quote-title]');
+            if (allQuotes.length === 0) return null;
+            return allQuotes[Math.floor(Math.random() * allQuotes.length)];
+        }
+
+        function displayDailyQuote() {
+            const quote = getRandomQuote();
+            if (quote) {
+                const title = quote.dataset.quoteTitle;
+                const content = quote.dataset.quoteContent;
+                dailyQuoteContent.innerHTML = `<strong>"${title}"</strong><br><br>${content.split('\n').join('<br>')}`;
+            }
+        }
+
+        dailyQuoteButton.addEventListener('click', displayDailyQuote);
+        displayDailyQuote();
+
+        // ============ BLOG FUNCTIONALITY ============
+        const blogContainer = document.getElementById('blogContainer');
+
+        BLOG_POSTS.forEach(post => {
+            const blogPost = document.createElement('div');
+            blogPost.className = 'blog-post';
+            const fullContentHtml = (post.content || post.excerpt).split('\n').map(p => `<p>${p}</p>`).join('');
+            blogPost.innerHTML = `
+                 <h3>${post.title}</h3>
+                <div class="blog-content">${post.excerpt}</div>
+                <div class="blog-full-content" hidden>${fullContentHtml}</div>
+                <button type="button" class="read-more">Read more →</button>
+            `;
+            blogContainer.appendChild(blogPost);
+        });
+
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('read-more')) {
+                e.preventDefault();
+                const post = e.target.closest('.blog-post');
+                if (!post) return;
+                const excerpt = post.querySelector('.blog-content');
+                const full = post.querySelector('.blog-full-content');
+                const expanded = !full.hidden;
+                full.hidden = expanded;
+                if (excerpt) excerpt.hidden = !expanded;
+                e.target.textContent = expanded ? 'Read more →' : 'Show less ↑';
+            }
+        });
+
+        // ============ TESTIMONIALS FUNCTIONALITY ============
+        const testimonialsList = document.getElementById('testimonialsList');
+
+        TESTIMONIALS.forEach(testimonial => {
+            const card = document.createElement('div');
+            card.className = 'testimonial-card';
+            card.innerHTML = `
+                <p class="testimonial-text">${testimonial.text}</p>
+                <p class="testimonial-author">— ${testimonial.author}</p>
+            `;
+            testimonialsList.appendChild(card);
+        });
+
+        // ============ NEWSLETTER FUNCTIONALITY ============
+        const NEWSLETTER_KEY = 'newsletterSubscribers';
+
+        function handleNewsletterSignup(event) {
+            event.preventDefault();
+            const email = document.getElementById('newsletterEmail').value.trim();
+            const message = document.getElementById('newsletterMessage');
+
+            if (!email) {
+                message.textContent = 'Please enter a valid email.';
+                message.style.color = '#e8879f';
+                return;
+            }
+
+            let subscribers = JSON.parse(localStorage.getItem(NEWSLETTER_KEY) || '[]');
+            if (subscribers.includes(email)) {
+                message.textContent = 'You\'re already subscribed!';
+                message.style.color = '#d9cfc0';
+                return;
+            }
+
+            subscribers.push(email);
+            localStorage.setItem(NEWSLETTER_KEY, JSON.stringify(subscribers));
+
+            const mailSubject = encodeURIComponent('New newsletter subscriber');
+            const mailBody = encodeURIComponent(`Please add this email to the newsletter list: ${email}`);
+            window.location.href = `mailto:jayw18239@gmail.com?subject=${mailSubject}&body=${mailBody}`;
+
+            message.textContent = 'Thanks! Your email app should open so we can pass your subscription along to Jay.';
+            message.style.color = '#f4c78a';
+            document.getElementById('newsletterForm').reset();
+        }
+
+        window.handleNewsletterSignup = handleNewsletterSignup;
+
+        // ============ COPY TO CLIPBOARD FUNCTIONALITY ============
+        function copyToClipboard(element) {
+            let textToCopy = '';
+            
+            if (element.classList.contains('quote')) {
+                const titleElement = element.querySelector('.quote-title');
+                const title = titleElement ? titleElement.textContent.split('🗒️')[0].split('♡')[0].trim() : '';
+                const content = element.dataset.quoteContent || element.innerText;
+                textToCopy = title ? `${title}\n\n${content}` : content;
+            } else if (element.classList.contains('card')) {
+                const titleElement = element.querySelector('h3');
+                const title = titleElement ? titleElement.textContent.trim() : '';
+                const textElements = element.querySelectorAll('p');
+                const text = Array.from(textElements).map(p => p.textContent).join('\n');
+                textToCopy = title ? `${title}\n\n${text}` : text;
+            } else if (element.classList.contains('blog-post')) {
+                const titleElement = element.querySelector('h3');
+                const title = titleElement ? titleElement.textContent.trim() : '';
+                const contentElement = element.querySelector('.blog-content');
+                const content = contentElement ? contentElement.textContent : '';
+                textToCopy = title ? `${title}\n\n${content}` : content;
+            } else if (element.classList.contains('testimonial-card')) {
+                const textElement = element.querySelector('.testimonial-text');
+                const authorElement = element.querySelector('.testimonial-author');
+                const text = textElement ? textElement.textContent : '';
+                const author = authorElement ? authorElement.textContent : '';
+                textToCopy = `${text}\n\n${author}`;
+            } else {
+                textToCopy = element.innerText;
+            }
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(textToCopy).then(() => {
+                    showCopyFeedback('Copied to clipboard!');
+                }).catch(() => {
+                    fallbackCopy(textToCopy);
+                });
+            } else {
+                fallbackCopy(textToCopy);
+            }
+        }
+
+        function fallbackCopy(text) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
+            document.body.appendChild(textarea);
+            textarea.focus();
+            textarea.select();
+            try {
+                document.execCommand('copy');
+                showCopyFeedback('Copied to clipboard!');
+            } catch (err) {
+                showCopyFeedback('Failed to copy');
+            }
+            document.body.removeChild(textarea);
+        }
+
+        // ============ SHARE LINKS ============
+        function shareCopyLink(platform) {
+            const url = window.location.href;
+            const message = `Link copied! Paste it into ${platform} to share.`;
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(url).then(() => {
+                    showCopyFeedback(message);
+                }).catch(() => {
+                    fallbackCopy(url);
+                });
+            } else {
+                fallbackCopy(url);
+            }
+        }
+        window.shareCopyLink = shareCopyLink;
+
+        function setShareLinks() {
+            const pageUrl = window.location.href;
+            const encodedUrl = encodeURIComponent(pageUrl);
+            const shareText = encodeURIComponent('Discover poetry from Jay Walker');
+            const links = {
+                shareFacebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
+                shareTwitter: `https://twitter.com/intent/tweet?text=${shareText}&url=${encodedUrl}`,
+                shareWhatsapp: `https://wa.me/?text=${shareText}%20at%20${encodedUrl}`,
+                shareEmail: `mailto:?subject=Check%20out%20Jay%20Walker%20Poetry&body=I%20thought%20you%20might%20enjoy%20this%20poetry%20site:%20${encodedUrl}`,
+                shareTelegram: `https://t.me/share/url?url=${encodedUrl}&text=${shareText}`
+            };
+            Object.keys(links).forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.href = links[id];
+            });
+        }
+        setShareLinks();
+
+        function showCopyFeedback(message) {
+            const existingFeedback = document.querySelector('.copy-feedback');
+            if (existingFeedback) {
+                existingFeedback.remove();
+            }
+
+            const feedback = document.createElement('div');
+            feedback.className = 'copy-feedback';
+            feedback.textContent = message;
+            document.body.appendChild(feedback);
+
+            setTimeout(() => {
+                feedback.remove();
+            }, 3000);
+        }
+
+        // ============ ADD COPY BUTTONS TO CARDS ============
+        function addCopyButtonsToCards() {
+            document.querySelectorAll('.card').forEach(card => {
+                // Check if copy button already exists
+                if (!card.querySelector('.copy-button')) {
+                    const titleElement = card.querySelector('h3');
+                    if (titleElement) {
+                        const copyButton = document.createElement('button');
+                        copyButton.className = 'copy-button';
+                        copyButton.title = 'Copy to clipboard';
+                        copyButton.setAttribute('aria-label', 'Copy to clipboard');
+                        copyButton.textContent = '📋';
+                        titleElement.appendChild(copyButton);
+                    }
+                }
+            });
+
+            document.querySelectorAll('.blog-post').forEach(post => {
+                // Check if copy button already exists
+                if (!post.querySelector('.copy-button')) {
+                    const titleElement = post.querySelector('h3');
+                    if (titleElement) {
+                        const copyButton = document.createElement('button');
+                        copyButton.className = 'copy-button';
+                        copyButton.title = 'Copy to clipboard';
+                        copyButton.setAttribute('aria-label', 'Copy to clipboard');
+                        copyButton.textContent = '📋';
+                        titleElement.appendChild(copyButton);
+                    }
+                }
+            });
+
+            document.querySelectorAll('.testimonial-card').forEach(testimonial => {
+                // Check if copy button already exists
+                if (!testimonial.querySelector('.copy-button')) {
+                    const copyButton = document.createElement('button');
+                    copyButton.className = 'copy-button';
+                    copyButton.title = 'Copy to clipboard';
+                        copyButton.setAttribute('aria-label', 'Copy to clipboard');
+                    copyButton.textContent = '📋';
+                    copyButton.style.marginLeft = 'auto';
+                    copyButton.style.marginRight = '0';
+                    testimonial.appendChild(copyButton);
+                }
+            });
+        }
+
+        // ============ DOWNLOAD FUNCTIONALITY ============
+        function createDownloadButton(card) {
+            const titleElement = card.querySelector('h3, .quote-title');
+            const title = titleElement?.textContent?.trim() || 'card';
+            let content = card.innerText.trim();
+
+            if (titleElement) {
+                const titleText = titleElement.innerText.trim();
+                content = content.replace(titleText, '').trim();
+            }
+
+            const button = document.createElement('button');
+            button.type = 'button';
+            button.className = 'download-button';
+            button.innerHTML = '<span aria-hidden="true">⬇</span>';
+            button.setAttribute('aria-label', 'Download as image');
+            button.title = 'Download as image';
+            button.addEventListener('click', async () => {
+                const fileName = title.toLowerCase().replace(/[^a-z0-9]+/g, '-') + '.png';
+                button.style.visibility = 'hidden';
+                try {
+                    const canvas = await html2canvas(card, {
+                        backgroundColor: null,
+                        scale: 2,
+                        useCORS: true,
+                    });
+                    const url = canvas.toDataURL('image/png');
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.download = fileName;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                } finally {
+                    button.style.visibility = 'visible';
+                }
+            });
+            card.appendChild(button);
+        }
+
+        document.querySelectorAll('.card, .quote').forEach(createDownloadButton);
+
+        // ============ FEEDBACK FUNCTIONALITY ============
+        const feedbackForm = document.getElementById('feedbackForm');
+        const feedbackStatus = document.getElementById('feedbackStatus');
+
+        if (feedbackForm) {
+            feedbackForm.addEventListener('submit', (event) => {
+                event.preventDefault();
+                const name = document.getElementById('feedbackName').value.trim();
+                const email = document.getElementById('feedbackEmail').value.trim();
+                const message = document.getElementById('feedbackMessage').value.trim();
+
+                if (!name || !message) {
+                    feedbackStatus.textContent = 'Please enter your name and feedback message.';
+                    return;
+                }
+
+                const feedbackData = {
+                    name,
+                    email,
+                    message,
+                    date: new Date().toISOString(),
+                };
+
+                const storedFeedback = localStorage.getItem('siteFeedback');
+                let feedbackList = [];
+
+                if (storedFeedback) {
+                    try {
+                        const parsed = JSON.parse(storedFeedback);
+                        feedbackList = Array.isArray(parsed) ? parsed : [parsed];
+                    } catch (error) {
+                        feedbackList = [];
+                    }
+                }
+
+                feedbackList.push(feedbackData);
+                localStorage.setItem('siteFeedback', JSON.stringify(feedbackList));
+
+                const mailSubject = encodeURIComponent(`Feedback from ${name}`);
+                const mailBody = encodeURIComponent(`Name: ${name}\nEmail: ${email || 'not provided'}\n\n${message}`);
+                window.location.href = `mailto:jayw18239@gmail.com?subject=${mailSubject}&body=${mailBody}`;
+
+                feedbackStatus.textContent = 'Thank you! Your email app should open so you can send this to Jay.';
+                feedbackForm.reset();
+            });
+        }
+
+        // ============ THEME TOGGLE FUNCTIONALITY ============
+        const THEME_KEY = 'selectedTheme';
+        const themeToggle = document.getElementById('themeToggle');
+
+        function setTheme(isDark) {
+            if (isDark) {
+                document.body.classList.remove('light-theme');
+                themeToggle.textContent = '☀️ Light';
+                localStorage.setItem(THEME_KEY, 'dark');
+            } else {
+                document.body.classList.add('light-theme');
+                themeToggle.textContent = '🌙 Dark';
+                localStorage.setItem(THEME_KEY, 'light');
+            }
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const isDark = document.body.classList.contains('light-theme');
+            setTheme(isDark);
+        });
+
+        const savedTheme = localStorage.getItem(THEME_KEY);
+        if (savedTheme === 'light') {
+            setTheme(false);
+        }
+
+        // ============ COMMENTS FUNCTIONALITY ============
+        const COMMENTS_KEY = 'quoteComments';
+
+        function getComments(quoteTitle) {
+            const stored = localStorage.getItem(COMMENTS_KEY);
+            const allComments = stored ? JSON.parse(stored) : {};
+            return allComments[quoteTitle] || [];
+        }
+
+        function saveComment(quoteTitle, name, text) {
+            const stored = localStorage.getItem(COMMENTS_KEY);
+            const allComments = stored ? JSON.parse(stored) : {};
+            if (!allComments[quoteTitle]) {
+                allComments[quoteTitle] = [];
+            }
+            allComments[quoteTitle].push({
+                name,
+                text,
+                date: new Date().toLocaleString()
+            });
+            localStorage.setItem(COMMENTS_KEY, JSON.stringify(allComments));
+        }
+
+        function addComment(event, quoteTitle) {
+            event.preventDefault();
+            const textarea = event.target.previousElementSibling;
+            const text = textarea.value.trim();
+
+            if (!text) {
+                alert('Please enter a comment');
+                return;
+            }
+
+            const name = 'Anonymous';
+            saveComment(quoteTitle, name, text);
+            textarea.value = '';
+            loadComments(quoteTitle);
+        }
+
+        function loadComments(quoteTitle) {
+            const comments = getComments(quoteTitle);
+            const commentsList = document.querySelector(`[data-quote="${quoteTitle}"] .comments-list`);
+            if (!commentsList) return;
+
+            commentsList.innerHTML = comments.map(comment => `
+                <div class="comment">
+                    <div class="comment-author">${comment.name}</div>
+                    <div class="comment-text">${comment.text}</div>
+                    <small style="color: #8a8078;">${comment.date}</small>
+                </div>
+            `).join('');
+        }
+
+        // Load all comments on page load
+        document.querySelectorAll('.comments-section').forEach(section => {
+            const quoteTitle = section.dataset.quote;
+            loadComments(quoteTitle);
+        });
+
+        // ============ CATEGORY FILTER FUNCTIONALITY ============
+        const categoryFilterBtns = document.querySelectorAll('.category-filter-btn');
+        const filteredResults = document.getElementById('filteredResults');
+
+        categoryFilterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                categoryFilterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const category = btn.dataset.category;
+                const quotes = document.querySelectorAll('[data-tags]');
+                let results = '';
+
+                quotes.forEach(quote => {
+                    const tags = quote.dataset.tags.split(',').map(t => t.trim());
+                    if (category === 'all' || tags.includes(category)) {
+                        const title = quote.dataset.quoteTitle;
+                        const content = quote.dataset.quoteContent;
+                        results += `
+                            <div style="background: rgba(227, 163, 97, 0.14); border: 1px solid rgba(227, 163, 97, 0.26); padding: 1rem; border-radius: 0.5rem; margin-bottom: 1rem; cursor: pointer;" onclick="document.querySelector('[data-quote-title=\\"${title}\\"]')?.scrollIntoView({behavior: 'smooth'})">
+                                <h4 style="margin: 0 0 0.5rem 0; color: var(--accent-color);">${title}</h4>
+                                <p style="margin: 0; color: #d4c9ba; font-size: 0.9rem;">${content.substring(0, 80)}...</p>
+                            </div>
+                        `;
+                    }
+                });
+
+                filteredResults.innerHTML = results || '<p style="color: #8a8078;">No quotes found for this category.</p>';
+            });
+        });
+
+        // ============ MOST POPULAR QUOTES FUNCTIONALITY ============
+        const STATS_KEY = 'quoteStats';
+
+        function trackQuoteInteraction(quoteTitle, type) {
+            const stored = localStorage.getItem(STATS_KEY);
+            const stats = stored ? JSON.parse(stored) : {};
+            if (!stats[quoteTitle]) {
+                stats[quoteTitle] = { favorites: 0, downloads: 0 };
+            }
+            if (type === 'favorite') stats[quoteTitle].favorites++;
+            if (type === 'download') stats[quoteTitle].downloads++;
+            localStorage.setItem(STATS_KEY, JSON.stringify(stats));
+        }
+
+        function getMostPopularQuotes(limit = 3) {
+            const stored = localStorage.getItem(STATS_KEY);
+            const stats = stored ? JSON.parse(stored) : {};
+            const sorted = Object.entries(stats)
+                .sort((a, b) => (b[1].favorites + b[1].downloads) - (a[1].favorites + a[1].downloads))
+                .slice(0, limit);
+            return sorted;
+        }
+
+        function displayMostPopular() {
+            const container = document.getElementById('mostPopularContainer');
+            if (!container) return;
+
+            const popular = getMostPopularQuotes(6);
+            if (popular.length === 0) {
+                container.innerHTML = '<p style="color: #8a8078; grid-column: 1 / -1;">No stats yet. Start interacting with quotes!</p>';
+                return;
+            }
+
+            container.innerHTML = popular.map(([title, stats]) => `
+                <div class="popular-quote-item" onclick="document.querySelector('[data-quote-title=\\"${title}\\"]')?.scrollIntoView({behavior: 'smooth'})">
+                    <div class="popular-quote-title">${title}</div>
+                    <div class="popular-quote-stats">❤️ ${stats.favorites} | ⬇️ ${stats.downloads}</div>
+                </div>
+            `).join('');
+        }
+
+        // ============ RELATED QUOTES FUNCTIONALITY ============
+        function findRelatedQuotes(quoteTitle, limit = 3) {
+            const tags = document.querySelector(`[data-quote-title="${quoteTitle}"]`)?.dataset.tags.split(',').map(t => t.trim()) || [];
+            const allQuotes = document.querySelectorAll('[data-quote-title]');
+            const related = [];
+
+            allQuotes.forEach(quote => {
+                const title = quote.dataset.quoteTitle;
+                if (title === quoteTitle) return;
+
+                const quoteTags = quote.dataset.tags.split(',').map(t => t.trim());
+                const commonTags = tags.filter(t => quoteTags.includes(t)).length;
+                if (commonTags > 0) {
+                    related.push({ title, commonTags });
+                }
+            });
+
+            return related.sort((a, b) => b.commonTags - a.commonTags).slice(0, limit);
+        }
+
+        function displayRelatedQuotes(quoteTitle) {
+            const section = document.querySelector(`[data-quote="${quoteTitle}"] .related-quotes-section`);
+            if (!section) return;
+
+            const related = findRelatedQuotes(quoteTitle);
+            const relatedList = section.querySelector('.related-list');
+
+            if (related.length === 0) {
+                section.classList.remove('active');
+                return;
+            }
+
+            section.classList.add('active');
+            relatedList.innerHTML = related.map(item => `
+                <div class="related-quote-item" onclick="document.querySelector('[data-quote-title=\\"${item.title}\\"]')?.scrollIntoView({behavior: 'smooth'})">
+                    <strong>${item.title}</strong>
+                </div>
+            `).join('');
+        }
+
+        // Initialize related quotes
+        document.querySelectorAll('[data-quote-title]').forEach(quote => {
+            const title = quote.dataset.quoteTitle;
+            displayRelatedQuotes(title);
+        });
+
+        // Track interactions
+        const originalToggleFavorite = toggleFavorite;
+        toggleFavorite = function(title) {
+            originalToggleFavorite(title);
+            trackQuoteInteraction(title, 'favorite');
+            displayMostPopular();
+        };
+
+        const originalCreateDownloadButton = createDownloadButton;
+        createDownloadButton = function(card) {
+            const titleElement = card.querySelector('h3, .quote-title');
+            if (titleElement) {
+                const title = titleElement.textContent.trim();
+                trackQuoteInteraction(title, 'download');
+            }
+            originalCreateDownloadButton(card);
+            displayMostPopular();
+        };
+
+        // ============ INITIALIZATION ============
+        if (isLoggedIn()) {
+            showAuthScreen(false);
+        } else {
+            showAuthScreen(true);
+        }
+
+        updateFavoritesUI();
+        addCopyButtonsToCards();
+        displayMostPopular();
+
+        // Show comment sections
+        document.querySelectorAll('.comments-section').forEach(section => {
+            section.classList.add('active');
+        });
+    </script>
+</body>
+</html>
