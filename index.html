@@ -1042,88 +1042,6 @@
             min-height: 1.2rem;
         }
 
-        .auth-screen {
-            position: fixed;
-            inset: 0;
-            background: rgba(8, 12, 20, 0.96);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: calc(1.5rem + env(safe-area-inset-top)) calc(1.5rem + env(safe-area-inset-right)) calc(1.5rem + env(safe-area-inset-bottom)) calc(1.5rem + env(safe-area-inset-left));
-            z-index: 9999;
-            overflow-y: auto;
-        }
-
-        .auth-card {
-            width: 100%;
-            max-width: 420px;
-            background: rgba(15, 23, 42, 0.95);
-            border: 1px solid rgba(255, 255, 255, 0.14);
-            border-radius: 1rem;
-            padding: 2rem;
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
-        }
-
-        .auth-card h2 {
-            margin: 0 0 0.75rem;
-            font-size: 1.75rem;
-            color: #ffffff;
-        }
-
-        .auth-card p {
-            margin: 0 0 1.5rem;
-            color: #d9cfc0;
-            line-height: 1.6;
-        }
-
-        .auth-card label {
-            display: block;
-            margin: 0.9rem 0 0.25rem;
-            color: #d1d5db;
-            font-size: 0.92rem;
-        }
-
-        .auth-card input {
-            width: 100%;
-            padding: 0.95rem 1rem;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 0.75rem;
-            background: rgba(255, 255, 255, 0.07);
-            color: #f7f1e8;
-            font-size: 1rem;
-            outline: none;
-        }
-
-        .auth-card input:focus {
-            border-color: var(--accent-color);
-            box-shadow: 0 0 0 3px rgba(227, 163, 97, 0.31);
-        }
-
-        .auth-card button {
-            width: 100%;
-            margin-top: 1.25rem;
-            padding: 0.95rem 1rem;
-            border: none;
-            border-radius: 0.75rem;
-            background: var(--accent-color);
-            color: #0f172a;
-            font-weight: 700;
-            cursor: pointer;
-            transition: transform 0.2s ease, background-color 0.2s ease;
-        }
-
-        .auth-card button:hover {
-            background-color: #7ec7ff;
-            transform: translateY(-1px);
-        }
-
-        .auth-error {
-            margin-top: 0.9rem;
-            color: #fda4af;
-            min-height: 1.2rem;
-            font-size: 0.95rem;
-        }
-
         footer {
             text-align: center;
             padding: 3rem 1rem 2rem 1rem;
@@ -1666,10 +1584,6 @@
             .social-links {
                 gap: 0.5rem;
             }
-
-            .auth-card {
-                padding: 1.5rem;
-            }
         }
 
         /* Fine-tuning for typical Android/iOS portrait phone widths */
@@ -1764,19 +1678,6 @@
         <span class="ambient-dust" style="top: 70%; left: 85%; animation-delay: 3.6s;"></span>
         <span class="ambient-dust" style="top: 80%; left: 25%; animation-delay: 1.3s;"></span>
         <span class="ambient-dust" style="top: 95%; left: 55%; animation-delay: 2.1s;"></span>
-    </div>
-
-    <div class="auth-screen" id="authScreen">
-        <div class="auth-card">
-            <h2>Sign in to continue</h2>
-            <p>Please log in before accessing the site.</p>
-            <label for="email">Email</label>
-            <input id="email" type="email" placeholder="Enter email" autocomplete="email">
-            <label for="password">Password</label>
-            <input id="password" type="password" placeholder="Enter password" autocomplete="current-password">
-            <button id="loginButton" type="button">Login</button>
-            <p class="auth-error" id="authError" aria-live="polite"></p>
-        </div>
     </div>
 
     <!-- Theme Toggle -->
@@ -2231,51 +2132,6 @@ experience.-JW-
             { text: 'Beautiful, thoughtful, and inspiring. This is poetry that heals.', author: 'Rebecca K.' },
             { text: 'I\'ve been reading these for months. Each quote offers a different perspective on strength and resilience.', author: 'David S.' }
         ];
-
-        // ============ AUTHENTICATION ============
-        const AUTH_KEY = 'poetryWebsiteLoggedIn';
-        const authScreen = document.getElementById('authScreen');
-        const loginButton = document.getElementById('loginButton');
-        const authError = document.getElementById('authError');
-        const emailInput = document.getElementById('email');
-        const passwordInput = document.getElementById('password');
-
-        function showAuthScreen(visible) {
-            authScreen.style.display = visible ? 'flex' : 'none';
-        }
-
-        function isLoggedIn() {
-            return localStorage.getItem(AUTH_KEY) === 'true';
-        }
-
-        function handleLogin() {
-            const email = emailInput.value.trim().toLowerCase();
-            const password = passwordInput.value;
-
-            if (!email || !password) {
-                authError.textContent = 'Please enter both email and password.';
-                return;
-            }
-
-            const validEmail = 'guest@example.com';
-            const validPassword = 'poetry123';
-
-            if (email === validEmail && password === validPassword) {
-                localStorage.setItem(AUTH_KEY, 'true');
-                showAuthScreen(false);
-                authError.textContent = '';
-                return;
-            }
-
-            authError.textContent = 'Invalid login. Use guest@example.com / poetry123.';
-        }
-
-        loginButton.addEventListener('click', handleLogin);
-        passwordInput.addEventListener('keydown', (event) => {
-            if (event.key === 'Enter') {
-                handleLogin();
-            }
-        });
 
         // ============ SEARCH FUNCTIONALITY ============
         const searchInput = document.getElementById('searchInput');
@@ -2974,12 +2830,6 @@ experience.-JW-
         };
 
         // ============ INITIALIZATION ============
-        if (isLoggedIn()) {
-            showAuthScreen(false);
-        } else {
-            showAuthScreen(true);
-        }
-
         updateFavoritesUI();
         addCopyButtonsToCards();
         displayMostPopular();
